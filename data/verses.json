@@ -67,8 +67,44 @@
       "full": "audio/niti_002_full.mp3"
     },
     "gloss": {
-      "sa": "संस्कृतार्थम्  अत्र स्थापयामि",
+      "sa": "विद्वांसः द्वेषेण आवृताः । समर्थाः राजानः अहङ्कारेण मलिनाः । इतरे साधारणाः सुभाषितानि अवगन्तुम् असमर्थाः । एवं सति सुभाषितं वक्तुः मुखे एव जीर्णं भवति ।व्यर्थः भवति इति भावः ।",
       "en": "The learned are consumed by envy, the powerful are corrupted by pride, and others are afflicted with ignorance. Thus, wise sayings perish within oneself, finding no worthy recipient."
+    }
+  },
+  {
+    "id": "niti_003",
+    "title": "नीतिशतकम् 3",
+    "meter": "आर्या",
+    "full": "अज्ञः सुखमाराध्यः सुखतरमाराध्यते विशेषज्ञः । ज्ञान-लव-दुर्विदग्धं ब्रह्मापि तं नरं न रञ्जयति ॥",
+    "text": {
+      "p1": "अज्ञः सुखमाराध्यः",
+      "p2": "सुखतरमाराध्यते विशेषज्ञः ।",
+      "p3": "ज्ञान-लव-दुर्विदग्धम्",
+      "p4": "ब्रह्मापि तं नरं न रञ्जयति ॥"
+    },
+    "practice": {
+      "p1": "अज्ञः सुखमाराध्यः",
+      "p2": "सुखतरमाराध्यते विशेषज्ञः ।",
+      "p3": "ज्ञान-लव-दुर्विदग्धम्",
+      "p4": "ब्रह्मापि तं नरं न रञ्जयति ॥"
+    },
+    "needsSplitPractice": false,
+    "available": {
+      "p12": true,
+      "p34": true
+    },
+    "audio": {
+      "p1": "audio/niti_003_p1.mp3",
+      "p2": "audio/niti_003_p2.mp3",
+      "p3": "audio/niti_003_p3.mp3",
+      "p4": "audio/niti_003_p4.mp3",
+      "p12": "audio/niti_003_p12.mp3",
+      "p34": "audio/niti_003_p34.mp3",
+      "full": "audio/niti_003_full.mp3"
+    },
+    "gloss": {
+      "sa": "संस्कृतार्थम्  अत्र स्थापयामि",
+      "en": "An ignorant person is easy to please, and an expert is even easier to please. However, even the creator Brahma cannot satisfy a person who is puffed up with a mere particle of knowledge."
     }
   }
 ]
