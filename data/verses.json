@@ -286,5 +286,77 @@
       "sa": "संस्कृतार्थम्  अत्र स्थापयामि",
       "en": "When I knew only a little, I became blinded by pride like an elephant in rut, and my mind grew arrogant, thinking, \"I am all-knowing.\" But when I learned a little more from the company of the wise, my pride subsided like a fever, as I realized, \"I am a fool.\""
     }
+  },
+  {
+    "id": "niti_009",
+    "title": "नीतिशतकम् 9",
+    "meter": "हरिणी --> रसयुगहयैर्न्सौ म्रौ स्लौ गो यदा हरिणी तदा",
+    "full": "कृमि-कुल-चितं लाला-क्लिन्नं विगन्धि-जुगुप्सितं निरुपम-रसं प्रीत्या खादन्नरास्थि निरामिषम् । सुरपतिमपि श्वा पार्श्वस्थं विलोक्य न शङ्कते न हि गणयति क्षुद्रो जन्तुः परिग्रह-फल्गुताम् ॥",
+    "text": {
+      "p1": "कृमि-कुल-चितं लाला-क्लिन्नं विगन्धि-जुगुप्सितm",
+      "p2": "निरुपम-रसं प्रीत्या खादन्नरास्थि निरामिषम् ।",
+      "p3": "सुरपतिमपि श्वा पार्श्वस्थं विलोक्य न शङ्कते",
+      "p4": "न हि गणयति क्षुद्रो जन्तुः परिग्रह-फल्गुताम् ॥"
+    },
+    "practice": {
+      "p1": "कृमि-कुल-चितं लाला-क्लिन्नं विगन्धि-जुगुप्सितm",
+      "p2": "निरुपम-रसं प्रीत्या खादन्नरास्थि निरामिषम् ।",
+      "p3": "सुरपतिमपि श्वा पार्श्वस्थं विलोक्य न शङ्कते",
+      "p4": "न हि गणयति क्षुद्रो जन्तुः परिग्रह-फल्गुताम् ॥"
+    },
+    "needsSplitPractice": false,
+    "available": {
+      "p12": true,
+      "p34": true
+    },
+    "audio": {
+      "p1": "audio/niti_009_p1.mp3",
+      "p2": "audio/niti_009_p2.mp3",
+      "p3": "audio/niti_009_p3.mp3",
+      "p4": "audio/niti_009_p4.mp3",
+      "p12": "audio/niti_009_p12.mp3",
+      "p34": "audio/niti_009_p34.mp3",
+      "full": "audio/niti_009_full.mp3"
+    },
+    "gloss": {
+      "sa": "संस्कृतार्थम्  अत्र स्थापयामि",
+      "en": "A dog, delightedly chewing on a fleshless human bone—infested with worms, wet with saliva, foul-smelling, and repulsive—does not feel threatened even upon seeing Indra, the king of gods, standing nearby. Indeed, a lowly creature does not consider the worthlessness of its possessions."
+    }
+  },
+  {
+    "id": "niti_010",
+    "title": "नीतिशतकम् 10",
+    "meter": "शिखरिणी -->  रसैः रुद्रैश्छिन्ना यमनसभला गः शिखरिणी",
+    "full": "शिरः शार्वं स्वर्गात्पशुपति-शिरस्तः क्षितिधरं महीध्रादुत्तुङ्गादवनिमवनेश्चापि जलधिम् । अधोऽधो गङ्गेयं पदमुपगता स्तोकमथवा विवेक-भ्रष्टानां भवति विनिपातः शतमुखः ॥",
+    "text": {
+      "p1": "शिरः शार्वं स्वर्गात्पशुपति-शिरस्तः क्षितिधरम्",
+      "p2": "महीध्रादुत्तुङ्गादवनिमवनेश्चापि जलधिम् ।",
+      "p3": "अधोऽधो गङ्गेयं पदमुपगता स्तोकमथवा",
+      "p4": "विवेक-भ्रष्टानां भवति विनिपातः शतमुखः ॥"
+    },
+    "practice": {
+      "p1": "शिरः शार्वं स्वर्गात्पशुपति-शिरस्तः क्षितिधरम्",
+      "p2": "महीध्रादुत्तुङ्गादवनिमवनेश्चापि जलधिम् ।",
+      "p3": "अधोऽधो गङ्गेयं पदमुपगता स्तोकमथवा",
+      "p4": "विवेक-भ्रष्टानां भवति विनिपातः शतमुखः ॥"
+    },
+    "needsSplitPractice": false,
+    "available": {
+      "p12": true,
+      "p34": true
+    },
+    "audio": {
+      "p1": "audio/niti_010_p1.mp3",
+      "p2": "audio/niti_010_p2.mp3",
+      "p3": "audio/niti_010_p3.mp3",
+      "p4": "audio/niti_010_p4.mp3",
+      "p12": "audio/niti_010_p12.mp3",
+      "p34": "audio/niti_010_p34.mp3",
+      "full": "audio/niti_010_full.mp3"
+    },
+    "gloss": {
+      "sa": "संस्कृतार्थम्  अत्र स्थापयामि",
+      "en": "The river Ganga descended from heaven to Shiva's head, from there to the Himalayas, from the high mountains to the earth, and from the earth to the ocean, thus reaching a progressively lower state. Or rather, it illustrates that the downfall of those who have lost their sense of discretion happens in a hundred different ways."
+    }
   }
 ]
