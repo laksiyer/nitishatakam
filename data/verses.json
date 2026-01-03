@@ -214,5 +214,41 @@
       "sa": "संस्कृतार्थम्  अत्र स्थापयामि",
       "en": "He who wishes to lead the wicked onto the path of the good with nectar-dripping wise sayings is attempting the impossible. It is like trying to restrain a rogue elephant with lotus filaments, cut a diamond with a Siris flower's powderpuff edge, or sweeten the salt ocean with a drop of honey."
     }
+  },
+  {
+    "id": "niti_007",
+    "title": "नीतिशतकम् 7",
+    "meter": "उपजातिः अनन्तरोदीरितलक्ष्मभाजौ पादौ यदीयावुपजातयस्ताः",
+    "full": "स्वायत्तमेकान्त-गुणं विधात्रा विनिर्मितं छादनमज्ञतायाः । विशेषतः सर्व-विदां समाजे विभूषणं मौनमपण्डितानाम् ॥",
+    "text": {
+      "p1": "स्वायत्तमेकान्त-गुणं विधात्रा",
+      "p2": "विनिर्मितं छादनमज्ञतायाः ।",
+      "p3": "विशेषतः सर्व-विदां समाजे ।",
+      "p4": "विभूषणं मौनमपण्डितानाम् ॥"
+    },
+    "practice": {
+      "p1": "स्वायत्तमेकान्त-गुणं विधात्रा",
+      "p2": "विनिर्मितं छादनमज्ञतायाः ।",
+      "p3": "विशेषतः सर्व-विदां समाजे ।",
+      "p4": "विभूषणं मौनमपण्डितानाम् ॥"
+    },
+    "needsSplitPractice": false,
+    "available": {
+      "p12": true,
+      "p34": true
+    },
+    "audio": {
+      "p1": "audio/niti_007_p1.mp3",
+      "p2": "audio/niti_007_p2.mp3",
+      "p3": "audio/niti_007_p3.mp3",
+      "p4": "audio/niti_007_p4.mp3",
+      "p12": "audio/niti_007_p12.mp3",
+      "p34": "audio/niti_007_p34.mp3",
+      "full": "audio/niti_007_full.mp3"
+    },
+    "gloss": {
+      "sa": "संस्कृतार्थम्  अत्र स्थापयामि",
+      "en": "The Creator has fashioned silence as a covering for ignorance, a virtue entirely within one's own control. Especially in an assembly of the learned, silence is an ornament for the unscholarly"
+    }
   }
 ]
