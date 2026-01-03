@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="sa">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>नीतिशतकम् – अभ्यास साधनम्</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">नीतिशतकम्</div>
+  <div class="sub">पद → द्विपद → श्लोक अभ्यासः</div>
+</header>
+
+<main class="wrap">
+
+  <!-- LEFT: controls -->
+  <section class="panel">
+
+    <!-- Verse navigation row: Prev / Select / Next -->
+    <div class="verseNav">
+      <button id="prevVerse" class="navBtn" title="Previous verse" aria-label="Previous verse">‹</button>
+
+      <div class="versePick">
+        <label for="verseSelect">Verse</label>
+        <select id="verseSelect"></select>
+      </div>
+
+      <button id="nextVerse" class="navBtn" title="Next verse" aria-label="Next verse">›</button>
+    </div>
+
+    <div class="meter" id="meterBox">—</div>
+
+    <!-- Slider rows with live value badges -->
+    <div class="sliderRow">
+      <label class="sliderLabel" for="repSingle">
+        Pāda repeat
+        <span class="badge" id="repSingleVal">3×</span>
+      </label>
+      <input id="repSingle" type="range" min="0" max="9" value="3">
+    </div>
+
+    <div class="sliderRow">
+      <label class="sliderLabel" for="repPairs">
+        Pair repeat (P1+P2, P3+P4)
+        <span class="badge" id="repPairsVal">2×</span>
+      </label>
+      <input id="repPairs" type="range" min="0" max="9" value="2">
+    </div>
+
+    <div class="sliderRow">
+      <label class="sliderLabel" for="repFull">
+        Full verse repeat
+        <span class="badge" id="repFullVal">2×</span>
+      </label>
+      <input id="repFull" type="range" min="0" max="9" value="2">
+    </div>
+
+    <div class="sliderRow">
+      <label class="sliderLabel" for="speed">
+        Speed
+        <span class="badge" id="speedVal">1.00×</span>
+      </label>
+      <input id="speed" type="range" min="0.75" max="1.30" step="0.05" value="1">
+    </div>
+
+    <!-- Total plays summary -->
+    <div class="summaryRow" id="runSummary">
+      <span>Total plays this run</span>
+      <span class="summaryNum" id="totalPlays">0</span>
+    </div>
+
+    <label class="checkRow">
+      <input type="checkbox" id="usePractice" checked>
+      <span>Practice text</span>
+    </label>
+
+    <button id="startBtn">Start Practice</button>
+    <button id="stopBtn">Stop</button>
+  </section>
+
+  <!-- RIGHT: verse display -->
+  <section class="verse">
+    <div class="full" id="fullLine"></div>
+
+    <div class="pada" id="pada1"></div>
+    <div class="pada" id="pada2"></div>
+    <div class="pada" id="pada3"></div>
+    <div class="pada" id="pada4"></div>
+
+<!-- Single-pāda buttons (only for normal verses) -->
+<div class="singles" id="singleButtons">
+  <button id="playP1">P1</button>
+  <button id="playP2">P2</button>
+  <button id="playP3">P3</button>
+  <button id="playP4">P4</button>
+</div>
+
+<!-- Pair / full buttons -->
+<div class="pairs">
+  <button id="playP12">P1+P2</button>
+  <button id="playP34">P3+P4</button>
+  <button id="playFull">Full</button>
+</div>
+
+    <div class="meanings">
+      <div id="arthaSa"></div>
+      <div id="meaningEn"></div>
+    </div>
+
+    <div id="status">Ready.</div>
+  </section>
+
+</main>
+
+<audio id="player"></audio>
+<script src="app.js"></script>
+</body>
+</html>

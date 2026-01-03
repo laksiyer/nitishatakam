@@ -1,0 +1,74 @@
+[
+  {
+    "id": "niti_001",
+    "title": "नीतिशतकम् 1",
+    "meter": "अनुष्टुप्",
+    "full": "दिक्-कालाद्यनवच्छिन्नानन्त-चिन्-मात्र-मूर्तये । स्वानुभूत्य्-एक-मानाय नमः शान्ताय तेजसे ॥",
+    "text": {
+      "p1": "दिक्-कालाद्यनवच्छिन्नानन्त-चिन्-मात्र-मूर्तये ।",
+      "p2": "",
+      "p3": "स्वानुभूत्य्-एक-मानाय नमः शान्ताय तेजसे ॥",
+      "p4": ""
+    },
+    "practice": {
+      "p1": "दिक्-कालाद्यनवच्छिन्नानन्त-चिन्-मात्र-मूर्तये ।",
+      "p2": "",
+      "p3": "स्वानुभूत्य्-एक-मानाय नमः शान्ताय तेजसे ॥",
+      "p4": ""
+    },
+    "needsSplitPractice": true,
+    "available": {
+      "p12": true,
+      "p34": true
+    },
+    "audio": {
+      "p1": "audio/niti_001_p1.mp3",
+      "p2": "audio/niti_001_p2.mp3",
+      "p3": "audio/niti_001_p3.mp3",
+      "p4": "audio/niti_001_p4.mp3",
+      "p12": "audio/niti_001_p12.mp3",
+      "p34": "audio/niti_001_p34.mp3",
+      "full": "audio/niti_001_full.mp3"
+    },
+    "gloss": {
+      "sa": "संस्कृतार्थम् अत्र स्थापयामि",
+      "en": "Salutations to that peaceful Light, which is the embodiment of pure, infinite consciousness, unconditioned by direction, time, etc., and which can be known only through self-realization."
+    }
+  },
+  {
+    "id": "niti_002",
+    "title": "नीतिशतकम् 2",
+    "meter": "अनुष्टुप्",
+    "full": "बोद्धारो मत्सर-ग्रस्ताः प्रभवः स्मय-दूषिताः । अबोधोपहताः चान्ये जीर्णमङ्गे सुभाषितम् ॥",
+    "text": {
+      "p1": "बोद्धारो मत्सर-ग्रस्ताः",
+      "p2": "प्रभवः स्मय-दूषिताः ।",
+      "p3": "अबोधोपहताः चान्ये",
+      "p4": "जीर्णमङ्गे सुभाषितम् ॥"
+    },
+    "practice": {
+      "p1": "बोद्धारो मत्सर-ग्रस्ताः",
+      "p2": "प्रभवः स्मय-दूषिताः ।",
+      "p3": "अबोधोपहताः चान्ये",
+      "p4": "जीर्णमङ्गे सुभाषितम् ॥"
+    },
+    "needsSplitPractice": false,
+    "available": {
+      "p12": true,
+      "p34": true
+    },
+    "audio": {
+      "p1": "audio/niti_002_p1.mp3",
+      "p2": "audio/niti_002_p2.mp3",
+      "p3": "audio/niti_002_p3.mp3",
+      "p4": "audio/niti_002_p4.mp3",
+      "p12": "audio/niti_002_p12.mp3",
+      "p34": "audio/niti_002_p34.mp3",
+      "full": "audio/niti_002_full.mp3"
+    },
+    "gloss": {
+      "sa": "संस्कृतार्थम्  अत्र स्थापयामि",
+      "en": "The learned are consumed by envy, the powerful are corrupted by pride, and others are afflicted with ignorance. Thus, wise sayings perish within oneself, finding no worthy recipient."
+    }
+  }
+]
