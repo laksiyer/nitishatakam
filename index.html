@@ -2,119 +2,151 @@
 <html lang="sa">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>नीतिशतकम् – अभ्यास-साधनम्</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>नीतिशतकम् — अभ्यास उपकरणम्</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="brandTitle">नीतिशतकम्</div>
+      <div class="brandSub">पद → द्विपद → श्लोक अभ्यासः</div>
+    </div>
 
-<header class="topbar">
-  <div class="brand">नीतिशतकम्</div>
-  <div class="sub">पद → द्विपद → श्लोक अभ्यासः</div>
-</header>
+    <div class="topControls">
+      <div class="controlGroup">
+        <label for="themeSelect">Theme</label>
+        <select id="themeSelect" class="select">
+          <option value="dark">Default (Dark)</option>
+          <option value="light">Light (Paper)</option>
+          <option value="contrast">High Contrast</option>
+          <option value="cb">Color-blind Safe</option>
+          <option value="sepia">Sepia</option>
+        </select>
+      </div>
+    </div>
+  </header>
 
-<main class="wrap">
+  <main class="layout">
+    <!-- LEFT PANEL -->
+    <section class="panel left">
+      <div class="verseNav">
+        <button id="prevVerse" class="navBtn" title="Previous verse">‹</button>
 
-  <!-- LEFT: controls -->
-  <section class="panel">
+        <div class="versePicker">
+          <div class="labelSmall">Verse</div>
+          <select id="verseSelect" class="select"></select>
+        </div>
 
-    <!-- Verse navigation row: Prev / Select / Next -->
-    <div class="verseNav">
-      <button id="prevVerse" class="navBtn" title="Previous verse" aria-label="Previous verse">‹</button>
-
-      <div class="versePick">
-        <label for="verseSelect">Verse</label>
-        <select id="verseSelect"></select>
+        <button id="nextVerse" class="navBtn" title="Next verse">›</button>
       </div>
 
-      <button id="nextVerse" class="navBtn" title="Next verse" aria-label="Next verse">›</button>
-    </div>
+      <div class="meter" id="meterBox">—</div>
 
-    <div class="meter" id="meterBox">—</div>
+      <div class="controlBlock">
+        <div class="controlRow">
+          <label for="practiceSet">Practice set (optional)</label>
+          <input id="practiceSet" class="input" placeholder="e.g. 1-10, 12, 18-20 or 1,7,8" />
+        </div>
 
-    <!-- Slider rows with live value badges -->
-    <div class="sliderRow">
-      <label class="sliderLabel" for="repSingle">
-        Pāda repeat
-        <span class="badge" id="repSingleVal">3×</span>
-      </label>
-      <input id="repSingle" type="range" min="0" max="9" value="3">
-    </div>
+        <div class="controlRow tight">
+          <button id="applySet" class="btn ghost">Apply</button>
+          <button id="clearSet" class="btn ghost">Clear</button>
+        </div>
 
-    <div class="sliderRow">
-      <label class="sliderLabel" for="repPairs">
-        Pair repeat (P1+P2, P3+P4)
-        <span class="badge" id="repPairsVal">2×</span>
-      </label>
-      <input id="repPairs" type="range" min="0" max="9" value="2">
-    </div>
+        <div id="setIndicator" class="hint"></div>
+      </div>
 
-    <div class="sliderRow">
-      <label class="sliderLabel" for="repFull">
-        Full verse repeat
-        <span class="badge" id="repFullVal">2×</span>
-      </label>
-      <input id="repFull" type="range" min="0" max="9" value="2">
-    </div>
+      <div class="controlBlock">
+        <div class="sliderRow">
+          <div class="sliderLabel">Pāda repeat</div>
+          <div class="badge" id="repSingleVal">1×</div>
+        </div>
+        <input id="repSingle" type="range" min="0" max="8" value="2" />
+      </div>
 
-    <div class="sliderRow">
-      <label class="sliderLabel" for="speed">
-        Speed
-        <span class="badge" id="speedVal">1.00×</span>
-      </label>
-      <input id="speed" type="range" min="0.75" max="1.30" step="0.05" value="1">
-    </div>
+      <div class="controlBlock">
+        <div class="sliderRow">
+          <div class="sliderLabel">Pair repeat (P1+P2, P3+P4)</div>
+          <div class="badge" id="repPairsVal">0×</div>
+        </div>
+        <input id="repPairs" type="range" min="0" max="8" value="0" />
+      </div>
 
-    <!-- Total plays summary -->
-    <div class="summaryRow" id="runSummary">
-      <span>Total plays this run</span>
-      <span class="summaryNum" id="totalPlays">0</span>
-    </div>
+      <div class="controlBlock">
+        <div class="sliderRow">
+          <div class="sliderLabel">Full verse repeat</div>
+          <div class="badge" id="repFullVal">0×</div>
+        </div>
+        <input id="repFull" type="range" min="0" max="8" value="0" />
+      </div>
 
-    <label class="checkRow">
-      <input type="checkbox" id="usePractice" checked>
-      <span>Practice text</span>
-    </label>
+      <div class="controlBlock">
+        <div class="sliderRow">
+          <div class="sliderLabel">Speed</div>
+          <div class="badge" id="speedVal">1.00×</div>
+        </div>
+        <input id="speed" type="range" min="0.70" max="1.50" step="0.01" value="1.15" />
+      </div>
 
-    <button id="startBtn">Start Practice</button>
-    <button id="stopBtn">Stop</button>
-  </section>
+      <div class="controlBlock">
+        <div class="row">
+          <label class="checkbox">
+            <input id="usePractice" type="checkbox" checked />
+            <span>Practice text</span>
+          </label>
 
-  <!-- RIGHT: verse display -->
-  <section class="verse">
-    <div class="full" id="fullLine"></div>
+          <div class="miniBox">
+            <div class="miniLabel">Total plays this run</div>
+            <div class="miniValue" id="totalPlays">0</div>
+          </div>
+        </div>
+      </div>
 
-    <div class="pada" id="pada1"></div>
-    <div class="pada" id="pada2"></div>
-    <div class="pada" id="pada3"></div>
-    <div class="pada" id="pada4"></div>
+      <div class="actions">
+        <button id="startBtn" class="btn primary">Start Practice</button>
+        <button id="stopBtn" class="btn">Stop</button>
+      </div>
+    </section>
 
-<!-- Single-pāda buttons (only for normal verses) -->
-<div class="singles" id="singleButtons">
-  <button id="playP1">P1</button>
-  <button id="playP2">P2</button>
-  <button id="playP3">P3</button>
-  <button id="playP4">P4</button>
-</div>
+    <!-- RIGHT PANEL -->
+    <section class="panel right">
+      <div class="line fullLine" id="fullLine">—</div>
 
-<!-- Pair / full buttons -->
-<div class="pairs">
-  <button id="playP12">P1+P2</button>
-  <button id="playP34">P3+P4</button>
-  <button id="playFull">Full</button>
-</div>
+      <div class="padas">
+        <div class="line pada" id="pada1"></div>
+        <div class="line pada" id="pada2"></div>
+        <div class="line pada" id="pada3"></div>
+        <div class="line pada" id="pada4"></div>
+      </div>
 
-    <div class="meanings">
-      <div id="arthaSa"></div>
-      <div id="meaningEn"></div>
-    </div>
+      <!-- Single-pāda buttons (only for normal verses) -->
+      <div class="singles" id="singleButtons">
+        <button id="playP1" class="btn chip">P1</button>
+        <button id="playP2" class="btn chip">P2</button>
+        <button id="playP3" class="btn chip">P3</button>
+        <button id="playP4" class="btn chip">P4</button>
+      </div>
 
-    <div id="status">Ready.</div>
-  </section>
+      <!-- Pair / full buttons -->
+      <div class="pairs">
+        <button id="playP12" class="btn chip">P1+P2</button>
+        <button id="playP34" class="btn chip">P3+P4</button>
+        <button id="playFull" class="btn chip">Full</button>
+      </div>
 
-</main>
+      <div class="glossRow">
+        <div class="gloss sa" id="arthaSa"></div>
+        <div class="gloss en" id="meaningEn"></div>
+      </div>
 
-<audio id="player"></audio>
-<script src="app.js"></script>
+      <div class="status" id="status">Ready.</div>
+
+      <audio id="player" preload="auto"></audio>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
 </body>
 </html>

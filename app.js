@@ -1,13 +1,8 @@
-// app.js — Nitishatakam MVP (robust for special verses)
-// - Prev/Next arrows
-// - Live slider badges
-// - Total plays estimate
-// - Special verse mode: singles stage uses p12 + p34 (because you may not have p3/p4 files)
-// - Tap-to-play routes p1/p2 -> p12 and p3/p4 -> p34 for special verses
-// - Correct repeat semantics:
-//    * Pāda repeat N: P1×N -> P2×N -> P3×N -> P4×N (special: P12×N -> P34×N)
-//    * Pair repeat N: P12×N -> P34×N
-// - NEW: P1/P2/P3/P4 buttons for normal verses only
+// app.js — Nitishatakam MVP + Practice Set + Theme presets
+// - Practice set input supports: 1-10, 1,7,8, 2-5, 9, 12-14
+// - Set is OPTIONAL: if empty => current verse only (existing behavior)
+// - Themes via <html data-theme="...">, persisted in localStorage
+// - Robust for special verses (needsSplitPractice): singles stage uses p12+p34
 
 const verseSelect = document.getElementById("verseSelect");
 const prevVerseBtn = document.getElementById("prevVerse");
@@ -44,14 +39,14 @@ const totalPlaysEl = document.getElementById("totalPlays");
 const startBtn = document.getElementById("startBtn");
 const stopBtn = document.getElementById("stopBtn");
 
-// NEW single buttons
+// Single buttons (normal verses only)
 const singleButtons = document.getElementById("singleButtons");
 const playP1 = document.getElementById("playP1");
 const playP2 = document.getElementById("playP2");
 const playP3 = document.getElementById("playP3");
 const playP4 = document.getElementById("playP4");
 
-// existing
+// Pair / full buttons
 const playP12 = document.getElementById("playP12");
 const playP34 = document.getElementById("playP34");
 const playFull = document.getElementById("playFull");
@@ -59,9 +54,21 @@ const playFull = document.getElementById("playFull");
 const status = document.getElementById("status");
 const player = document.getElementById("player");
 
+// Practice set UI
+const practiceSetInput = document.getElementById("practiceSet");
+const applySetBtn = document.getElementById("applySet");
+const clearSetBtn = document.getElementById("clearSet");
+const setIndicator = document.getElementById("setIndicator");
+
+// Theme UI
+const themeSelect = document.getElementById("themeSelect");
+
 let verses = [];
 let current = null;
 let stopRequested = false;
+
+// Practice set state: array of verse indices in verses[]
+let practiceSetIndices = []; // empty => not active
 
 // ---------- UI helpers ----------
 function setStatus(msg) { status.textContent = msg; }
@@ -87,8 +94,6 @@ function selectVerseByIndex(idx) {
   loadVerse(verses[i]);
 }
 
-// For NORMAL verses: singles = p1,p2,p3,p4
-// For SPECIAL verses: singles = p12,p34  (matches your actual audio inventory)
 function getSinglesSequence() {
   if (!current) return ["p1", "p2", "p3", "p4"];
   if (current.needsSplitPractice) return ["p12", "p34"];
@@ -99,22 +104,23 @@ function audioFor(key) {
   if (!current) return null;
   if (key === "p12") return current.audio?.p12 || null;
   if (key === "p34") return current.audio?.p34 || null;
+  if (key === "full") return current.audio?.full || null;
   return current.audio?.[key] || null;
 }
 
-// Total plays: (#singles units)*repSingle + (#pair units available)*repPairs + repFull
-function computeTotalPlays() {
-  if (!current) return 0;
+function computeTotalPlaysForVerse(v) {
+  if (!v) return 0;
 
   const nSingle = Number(repSingle.value);
   const nPairs = Number(repPairs.value);
   const nFull = Number(repFull.value);
 
-  const singlesUnits = getSinglesSequence().length;
+  const isSpecial = !!v.needsSplitPractice;
+  const singlesUnits = isSpecial ? 2 : 4;
   const singlesPlays = singlesUnits * nSingle;
 
-  const hasP12 = !!(current.available?.p12 && current.audio?.p12);
-  const hasP34 = !!(current.available?.p34 && current.audio?.p34);
+  const hasP12 = !!(v.available?.p12 && v.audio?.p12);
+  const hasP34 = !!(v.available?.p34 && v.audio?.p34);
   const pairUnitsPerCycle = (hasP12 ? 1 : 0) + (hasP34 ? 1 : 0);
   const pairsPlays = pairUnitsPerCycle * nPairs;
 
@@ -122,7 +128,92 @@ function computeTotalPlays() {
 }
 
 function updateRunSummary() {
-  if (totalPlaysEl) totalPlaysEl.textContent = String(computeTotalPlays());
+  const perVerse = computeTotalPlaysForVerse(current);
+  if (practiceSetIndices.length > 0) {
+    // simple: show total across set = per-verse * count
+    // (keeps UI predictable; later you can refine if you want per-verse availability differences)
+    totalPlaysEl.textContent = String(perVerse * practiceSetIndices.length);
+  } else {
+    totalPlaysEl.textContent = String(perVerse);
+  }
+}
+
+// ---------- Practice set parsing ----------
+function extractVerseNumber(v) {
+  // Preferred: parse from id like "niti_002" -> 2
+  const m = String(v.id || "").match(/(\d+)/);
+  if (m) return Number(m[1]);
+  return null;
+}
+
+function parsePracticeSet(text, maxN) {
+  const raw = (text || "").trim();
+  if (!raw) return [];
+
+  // allow spaces
+  const parts = raw.split(",").map(s => s.trim()).filter(Boolean);
+  const nums = [];
+
+  for (const part of parts) {
+    const r = part.replace(/\s+/g, "");
+    if (/^\d+$/.test(r)) {
+      nums.push(Number(r));
+      continue;
+    }
+    if (/^\d+-\d+$/.test(r)) {
+      const [a, b] = r.split("-").map(Number);
+      const lo = Math.min(a, b);
+      const hi = Math.max(a, b);
+      for (let k = lo; k <= hi; k++) nums.push(k);
+      continue;
+    }
+    // invalid token
+    throw new Error(`Invalid token: "${part}"`);
+  }
+
+  // keep order, remove duplicates
+  const seen = new Set();
+  const unique = [];
+  for (const n of nums) {
+    if (!Number.isFinite(n)) continue;
+    if (n < 1 || n > maxN) continue;
+    if (!seen.has(n)) { seen.add(n); unique.push(n); }
+  }
+  return unique;
+}
+
+function applyPracticeSetFromInput() {
+  try {
+    const maxN = verses.length;
+    const wanted = parsePracticeSet(practiceSetInput.value, maxN);
+    if (wanted.length === 0) {
+      practiceSetIndices = [];
+      setIndicator.textContent = "";
+      updateRunSummary();
+      setStatus("Set cleared. (Single-verse mode)");
+      return;
+    }
+
+    // map numbers -> indices using verse order (1-based)
+    // Assumption: verse 1 is verses[0], verse 2 is verses[1], etc.
+    // This matches your current naming + dropdown numbering.
+    practiceSetIndices = wanted.map(n => n - 1).filter(i => i >= 0 && i < verses.length);
+
+    const label = wanted.join(", ");
+    setIndicator.textContent = `Practicing set: ${label} (${practiceSetIndices.length} verses)`;
+    updateRunSummary();
+    setStatus("Set applied.");
+  } catch (e) {
+    setStatus(`Set error: ${e.message}`);
+  }
+}
+
+function clearPracticeSet() {
+  practiceSetInput.value = "";
+  practiceSetIndices = [];
+  setIndicator.textContent = "";
+  updateRunSummary();
+  setStatus("Set cleared. (Single-verse mode)");
 }
 
 // ---------- audio ----------
@@ -151,7 +242,6 @@ async function playSrc(src) {
   });
 }
 
-// NEW helper: play a unit key once
 async function playUnit(key) {
   if (!current) return;
   stopRequested = false;
@@ -166,14 +256,11 @@ async function playUnit(key) {
 }
 
 // ---------- practice runner ----------
-async function runPractice() {
+async function runPracticeForCurrentVerse() {
   if (!current) return;
 
-  stopRequested = false;
-  setStatus("Playing…");
-
   try {
-    // 1) Singles stage (each unit repeats N times before moving to next)
+    // 1) Singles stage: each unit repeats N times before moving to next
     const seq = getSinglesSequence();
     for (const k of seq) {
       const src = audioFor(k);
@@ -185,9 +272,8 @@ async function runPractice() {
       }
     }
 
-    // 2) Pairs stage (P12×N then P34×N)
-    const pairKeys = ["p12", "p34"];
-    for (const k of pairKeys) {
+    // 2) Pairs stage: P12×N then P34×N
+    for (const k of ["p12", "p34"]) {
       const src = audioFor(k);
       if (!src) continue;
 
@@ -198,16 +284,47 @@ async function runPractice() {
     }
 
     // 3) Full stage
-    const fullSrc = current.audio?.full || null;
+    const fullSrc = audioFor("full");
     for (let i = 0; i < Number(repFull.value); i++) {
       if (stopRequested) { setStatus("Stopped."); return; }
       await playSrc(fullSrc);
     }
-
-    setStatus("Done.");
   } catch (e) {
     setStatus(`Could not play audio. Check file paths. (${e.message})`);
+    throw e;
   }
+}
+
+async function runPractice() {
+  if (!current) return;
+
+  stopRequested = false;
+
+  // SET MODE
+  if (practiceSetIndices.length > 0) {
+    setStatus("Set practice starting…");
+    for (let s = 0; s < practiceSetIndices.length; s++) {
+      if (stopRequested) { setStatus("Stopped."); return; }
+
+      const idx = practiceSetIndices[s];
+      const v = verses[idx];
+      if (!v) continue;
+
+      // update UI to current set verse
+      verseSelect.selectedIndex = idx;
+      loadVerse(v);
+
+      setStatus(`Set: verse ${idx + 1} (${s + 1}/${practiceSetIndices.length})…`);
+      await runPracticeForCurrentVerse();
+    }
+    setStatus("Done (set).");
+    return;
+  }
+
+  // SINGLE-VERSE MODE (existing behavior)
+  setStatus("Playing…");
+  await runPracticeForCurrentVerse();
+  setStatus("Done.");
 }
 
 function stopAll() {
@@ -236,12 +353,11 @@ function loadVerse(v) {
   playP12.disabled = !(v.available?.p12 && v.audio?.p12);
   playP34.disabled = !(v.available?.p34 && v.audio?.p34);
 
-  // NEW: show P1–P4 buttons only for normal verses (no clashes with verse 1)
+  // Single buttons only for normal verses
   if (v.needsSplitPractice) {
     singleButtons.style.display = "none";
   } else {
     singleButtons.style.display = "flex";
-    // Also disable individual buttons if audio missing (future-proof)
     playP1.disabled = !v.audio?.p1;
     playP2.disabled = !v.audio?.p2;
     playP3.disabled = !v.audio?.p3;
@@ -258,17 +374,42 @@ function loadVerse(v) {
   setStatus("Ready.");
 }
 
+// ---------- theme ----------
+function setTheme(theme) {
+  document.documentElement.dataset.theme = theme;
+  localStorage.setItem("niti_theme", theme);
+}
+
+function initTheme() {
+  const saved = localStorage.getItem("niti_theme") || "dark";
+  themeSelect.value = saved;
+  setTheme(saved);
+}
+
 // ---------- init ----------
 async function init() {
+  initTheme();
+
   try {
     const resp = await fetch("data/verses.json");
     verses = await resp.json();
+
+    // ensure order is stable and human-friendly: by numeric id if possible
+    verses.forEach(v => { v._num = extractVerseNumber(v) ?? null; });
+    verses.sort((a, b) => {
+      if (a._num != null && b._num != null) return a._num - b._num;
+      return String(a.id).localeCompare(String(b.id));
+    });
 
     verseSelect.innerHTML = "";
     verses.forEach(v => {
       const opt = document.createElement("option");
       opt.value = v.id;
-      opt.textContent = v.title || v.id;
+
+      // Show number next to title if available
+      const n = v._num != null ? v._num : "";
+      opt.textContent = n ? `${v.title}` : (v.title || v.id);
+
       verseSelect.appendChild(opt);
     });
 
@@ -310,23 +451,35 @@ async function init() {
 
   usePractice.addEventListener("change", () => { if (current) loadVerse(current); });
 
-  startBtn.addEventListener("click", runPractice);
+  startBtn.addEventListener("click", () => runPractice());
   stopBtn.addEventListener("click", stopAll);
 
-  // NEW: Single buttons (only visible on normal verses)
+  // Practice set buttons
+  applySetBtn.addEventListener("click", applyPracticeSetFromInput);
+  clearSetBtn.addEventListener("click", clearPracticeSet);
+
+  // Enter key in set box applies
+  practiceSetInput.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") applyPracticeSetFromInput();
+  });
+
+  // Theme selection
+  themeSelect.addEventListener("change", () => {
+    setTheme(themeSelect.value);
+  });
+
+  // Single buttons
   playP1.addEventListener("click", () => playUnit("p1"));
   playP2.addEventListener("click", () => playUnit("p2"));
   playP3.addEventListener("click", () => playUnit("p3"));
   playP4.addEventListener("click", () => playUnit("p4"));
 
-  // Direct buttons (pairs/full)
+  // Pair / full buttons
   playP12.addEventListener("click", () => playUnit("p12"));
   playP34.addEventListener("click", () => playUnit("p34"));
   playFull.addEventListener("click", () => playUnit("full"));
 
-  // Tap-to-play padas:
-  // normal verse: p1->p1, p2->p2, p3->p3, p4->p4
-  // special verse: p1/p2 -> p12, p3/p4 -> p34
+  // Tap-to-play padas
   const canonical = ["p1", "p2", "p3", "p4"];
   padaEls.forEach((el, i) => {
     el.addEventListener("click", async () => {
@@ -334,10 +487,7 @@ async function init() {
       stopRequested = false;
 
       let key = canonical[i];
-      if (current.needsSplitPractice) {
-        key = (i < 2) ? "p12" : "p34";
-      }
-
+      if (current.needsSplitPractice) key = (i < 2) ? "p12" : "p34";
       await playUnit(key);
     });
   });
