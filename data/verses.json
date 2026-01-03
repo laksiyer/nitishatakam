@@ -142,5 +142,41 @@
       "sa": "संस्कृतार्थम्  अत्र स्थापयामि",
       "en": "One might forcibly extract a gem from between a crocodile's teeth, cross an ocean agitated by rows of surging waves, and even wear an enraged serpent on one's head like a flower. But one can never please the mind of a stubborn fool."
     }
+  },
+  {
+    "id": "niti_005",
+    "title": "नीतिशतकम् 5",
+    "meter": "पृथ्वी",
+    "full": "लभेत सिकतासु तैलमपि यत्नतः पीडयन्पिबेच्च मृग-तृष्णिकासु सलिलं पिपासार्दितः । कदाचिदपि पर्यटन् शशविषाणमासादयेन्नतु प्रतिनिविष्ट-मूर्ख-जन-चित्तमाराधयेत् ॥",
+    "text": {
+      "p1": "लभेत सिकतासु तैलमपि यत्नतः पीडयन्",
+      "p2": "पिबेच्च मृग-तृष्णिकासु सलिलं पिपासार्दितः ।",
+      "p3": "कदाचिदपि पर्यटन् शशविषाणमासादयेत्",
+      "p4": "न तु प्रतिनिविष्ट-मूर्ख-जन-चित्तमाराधयेत् ॥"
+    },
+    "practice": {
+      "p1": "लभेत सिकतासु तैलमपि यत्नतः पीडयन्",
+      "p2": "पिबेच्च मृग-तृष्णिकासु सलिलं पिपासार्दितः ।",
+      "p3": "कदाचिदपि पर्यटन् शशविषाणमासादयेत्",
+      "p4": "न तु प्रतिनिविष्ट-मूर्ख-जन-चित्तमाराधयेत् ॥"
+    },
+    "needsSplitPractice": false,
+    "available": {
+      "p12": true,
+      "p34": true
+    },
+    "audio": {
+      "p1": "audio/niti_005_p1.mp3",
+      "p2": "audio/niti_005_p2.mp3",
+      "p3": "audio/niti_005_p3.mp3",
+      "p4": "audio/niti_005_p4.mp3",
+      "p12": "audio/niti_005_p12.mp3",
+      "p34": "audio/niti_005_p34.mp3",
+      "full": "audio/niti_005_full.mp3"
+    },
+    "gloss": {
+      "sa": "संस्कृतार्थम्  अत्र स्थापयामि",
+      "en": "By pressing with effort, one might even obtain oil from sand; tormented by thirst, one might drink water from a mirage; and while wandering, one might even find a hare's horn. But one can never please the mind of a stubborn fool."
+    }
   }
 ]
