@@ -178,5 +178,41 @@
       "sa": "संस्कृतार्थम्  अत्र स्थापयामि",
       "en": "By pressing with effort, one might even obtain oil from sand; tormented by thirst, one might drink water from a mirage; and while wandering, one might even find a hare's horn. But one can never please the mind of a stubborn fool."
     }
+  },
+  {
+    "id": "niti_006",
+    "title": "नीतिशतकम् 6",
+    "meter": "शार्दूलविक्रीडितम्",
+    "full": "व्यालं बाल-मृणाल-तन्तुभिरसौ रोद्धुं समुज्जृम्भते छेत्तुं वज्र-मणिं शिरीष-कुसुम-प्रान्तेन सन्नह्यति । माधुर्यं मधु-बिन्दुना रचयितुं क्षारामुधेरीहते नेतुं वाञ्छन्ति यः खलान्पथि सतां सूक्तैः सुधा-स्यन्दिभिः ॥",
+    "text": {
+      "p1": "व्यालं बाल-मृणाल-तन्तुभिरसौ रोद्धुं समुज्जृम्भते",
+      "p2": "छेत्तुं वज्र-मणिं शिरीष-कुसुम-प्रान्तेन सन्नह्यति ।",
+      "p3": "",
+      "p4": "माधुर्यं मधु-बिन्दुना रचयितुं क्षारामुधेरीहते"
+    },
+    "practice": {
+      "p1": "व्यालं बाल-मृणाल-तन्तुभिरसौ रोद्धुं समुज्जृम्भते",
+      "p2": "छेत्तुं वज्र-मणिं शिरीष-कुसुम-प्रान्तेन सन्नह्यति ।",
+      "p3": "",
+      "p4": "माधुर्यं मधु-बिन्दुना रचयितुं क्षारामुधेरीहते"
+    },
+    "needsSplitPractice": false,
+    "available": {
+      "p12": true,
+      "p34": true
+    },
+    "audio": {
+      "p1": "audio/niti_006_p1.mp3",
+      "p2": "audio/niti_006_p2.mp3",
+      "p3": "audio/niti_006_p3.mp3",
+      "p4": "audio/niti_006_p4.mp3",
+      "p12": "audio/niti_006_p12.mp3",
+      "p34": "audio/niti_006_p34.mp3",
+      "full": "audio/niti_006_full.mp3"
+    },
+    "gloss": {
+      "sa": "संस्कृतार्थम्  अत्र स्थापयामि",
+      "en": "He who wishes to lead the wicked onto the path of the good with nectar-dripping wise sayings is attempting the impossible. It is like trying to restrain a rogue elephant with lotus filaments, cut a diamond with a Siris flower's powderpuff edge, or sweeten the salt ocean with a drop of honey."
+    }
   }
 ]
