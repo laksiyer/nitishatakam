@@ -358,5 +358,41 @@
       "sa": "संस्कृतार्थम्  अत्र स्थापयामि",
       "en": "The river Ganga descended from heaven to Shiva's head, from there to the Himalayas, from the high mountains to the earth, and from the earth to the ocean, thus reaching a progressively lower state. Or rather, it illustrates that the downfall of those who have lost their sense of discretion happens in a hundred different ways."
     }
+  },
+  {
+    "id": "niti_011",
+    "title": "नीतिशतकम् 11",
+    "meter": "शार्दूलविक्रीडितम् -->  सूर्याश्वैर्यदि मः सजौ सततगाः शार्दूलविक्रीडितम्",
+    "full": "शक्यो वारयितुं जलेन हुतभुक्च्छत्रेण सूर्यातपो नागेन्द्रो निशिताग्कुशेन समदो दण्डेन गो-गर्दभौ । व्याधिर्भेषज-सङ्ग्रहैश्च विविधैर्मन्त्र-प्रयोगैर्विषं सर्वस्यौषधमस्ति शास्त्र-विहितं मूर्खस्य नस्त्यौषधिम् ॥",
+    "text": {
+      "p1": "शक्यो वारयितुं जलेन हुतभुक्च्छत्रेण सूर्यातपः",
+      "p2": "नागेन्द्रो निशिताग्कुशेन समदो दण्डेन गो-गर्दभौ ।",
+      "p3": "व्याधिर्भेषज-सङ्ग्रहैश्च विविधैर्मन्त्र-प्रयोगैर्विषम्",
+      "p4": "सर्वस्यौषधमस्ति शास्त्र-विहितं मूर्खस्य नस्त्यौषधिम् ॥"
+    },
+    "practice": {
+      "p1": "शक्यो वारयितुं जलेन हुतभुक्च्छत्रेण सूर्यातपः",
+      "p2": "नागेन्द्रो निशिताग्कुशेन समदो दण्डेन गो-गर्दभौ ।",
+      "p3": "व्याधिर्भेषज-सङ्ग्रहैश्च विविधैर्मन्त्र-प्रयोगैर्विषम्",
+      "p4": "सर्वस्यौषधमस्ति शास्त्र-विहितं मूर्खस्य नस्त्यौषधिम् ॥"
+    },
+    "needsSplitPractice": false,
+    "available": {
+      "p12": true,
+      "p34": true
+    },
+    "audio": {
+      "p1": "audio/niti_011_p1.mp3",
+      "p2": "audio/niti_011_p2.mp3",
+      "p3": "audio/niti_011_p3.mp3",
+      "p4": "audio/niti_011_p4.mp3",
+      "p12": "audio/niti_011_p12.mp3",
+      "p34": "audio/niti_011_p34.mp3",
+      "full": "audio/niti_011_full.mp3"
+    },
+    "gloss": {
+      "sa": "संस्कृतार्थम्  अत्र स्थापयामि",
+      "en": "Fire can be quelled with water, the sun's heat with an umbrella, a rogue elephant with a sharp goad, and a cow or donkey with a stick. Disease can be cured with various medicines and poison with mantras. There is a scripturally prescribed remedy for everything, but there is no remedy for a fool."
+    }
   }
 ]
