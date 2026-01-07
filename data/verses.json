@@ -293,13 +293,13 @@
     "meter": "हरिणी --> रसयुगहयैर्न्सौ म्रौ स्लौ गो यदा हरिणी तदा",
     "full": "कृमि-कुल-चितं लाला-क्लिन्नं विगन्धि-जुगुप्सितं निरुपम-रसं प्रीत्या खादन्नरास्थि निरामिषम् । सुरपतिमपि श्वा पार्श्वस्थं विलोक्य न शङ्कते न हि गणयति क्षुद्रो जन्तुः परिग्रह-फल्गुताम् ॥",
     "text": {
-      "p1": "कृमि-कुल-चितं लाला-क्लिन्नं विगन्धि-जुगुप्सितm",
+      "p1": "कृमि-कुल-चितं लाला-क्लिन्नं विगन्धि-जुगुप्सितम्",
       "p2": "निरुपम-रसं प्रीत्या खादन्नरास्थि निरामिषम् ।",
       "p3": "सुरपतिमपि श्वा पार्श्वस्थं विलोक्य न शङ्कते",
       "p4": "न हि गणयति क्षुद्रो जन्तुः परिग्रह-फल्गुताम् ॥"
     },
     "practice": {
-      "p1": "कृमि-कुल-चितं लाला-क्लिन्नं विगन्धि-जुगुप्सितm",
+      "p1": "कृमि-कुल-चितं लाला-क्लिन्नं विगन्धि-जुगुप्सितम्",
       "p2": "निरुपम-रसं प्रीत्या खादन्नरास्थि निरामिषम् ।",
       "p3": "सुरपतिमपि श्वा पार्श्वस्थं विलोक्य न शङ्कते",
       "p4": "न हि गणयति क्षुद्रो जन्तुः परिग्रह-फल्गुताम् ॥"
@@ -393,6 +393,654 @@
     "gloss": {
       "sa": "संस्कृतार्थम्  अत्र स्थापयामि",
       "en": "Fire can be quelled with water, the sun's heat with an umbrella, a rogue elephant with a sharp goad, and a cow or donkey with a stick. Disease can be cured with various medicines and poison with mantras. There is a scripturally prescribed remedy for everything, but there is no remedy for a fool."
+    }
+  },
+  {
+    "id": "niti_012",
+    "title": "नीतिशतकम् 12",
+    "meter": "उपजातिः --> अनन्तरोदीरितलक्ष्मभाजौ पादौ यदीयावुपजातयस्ताः",
+    "full": "साहित्य-सङ्गीत-कला-विहीनः साक्षात्पशुः पुच्छ-विषाण-हीनः । तृणं न खादन्नपि जीवमानः तद्भागधेयं परमं पशूनाम् ॥ १२॥",
+    "text": {
+      "p1": "साहित्य-सङ्गीत-कला-विहीनः",
+      "p2": "साक्षात्पशुः पुच्छ-विषाण-हीनः ।",
+      "p3": "तृणं न खादन्नपि जीवमानः",
+      "p4": "तद्भाग-धेयं परमं पशूनाम् ॥"
+    },
+    "practice": {
+      "p1": "साहित्य-सङ्गीत-कला-विहीनः",
+      "p2": "साक्षात्पशुः पुच्छ-विषाण-हीनः ।",
+      "p3": "तृणं न खादन्नपि जीवमानः",
+      "p4": "तद्भाग-धेयं परमं पशूनाम् ॥"
+    },
+    "needsSplitPractice": false,
+    "available": {
+      "p12": true,
+      "p34": true
+    },
+    "audio": {
+      "p1": "audio/niti_012_p1.mp3",
+      "p2": "audio/niti_012_p2.mp3",
+      "p3": "audio/niti_012_p3.mp3",
+      "p4": "audio/niti_012_p4.mp3",
+      "p12": "audio/niti_012_p12.mp3",
+      "p34": "audio/niti_012_p34.mp3",
+      "full": "audio/niti_012_full.mp3"
+    },
+    "gloss": {
+      "sa": "संस्कृतार्थम्  अत्र स्थापयामि",
+      "en": "A person devoid of literature, music, and art is truly an animal, though without a tail and horns. That he lives without eating grass is the supreme good fortune of the other animals."
+    }
+  },
+  {
+    "id": "niti_013",
+    "title": "नीतिशतकम् 13",
+    "meter": "उपजातिः --> अनन्तरोदीरितलक्ष्मभाजौ पादौ यदीयावुपजातयस्ताः",
+    "full": "येषां न विद्या न तपो न दानं ज्ञानं न शीलं न गुणो न धर्मः । ते मर्त्य-लोके भुवि भार-भूता मनुष्य-रूपेण मृगाश्चरन्ति ॥",
+    "text": {
+      "p1": "येषां न विद्या न तपो न दानं",
+      "p2": "ज्ञानं न शीलं न गुणो न धर्मः ।",
+      "p3": "ते मर्त्य-लोके भुवि भार-भूताः",
+      "p4": "मनुष्य-रूपेण मृगाश्चरन्ति ॥"
+    },
+    "practice": {
+      "p1": "येषां न विद्या न तपो न दानं",
+      "p2": "ज्ञानं न शीलं न गुणो न धर्मः ।",
+      "p3": "ते मर्त्य-लोके भुवि भार-भूताः",
+      "p4": "मनुष्य-रूपेण मृगाश्चरन्ति ॥"
+    },
+    "needsSplitPractice": false,
+    "available": {
+      "p12": false,
+      "p34": false
+    },
+    "audio": {
+      "p1": "audio/niti_013_p1.mp3",
+      "p2": "audio/niti_013_p2.mp3",
+      "p3": "audio/niti_013_p3.mp3",
+      "p4": "audio/niti_013_p4.mp3",
+      "p12": null,
+      "p34": null,
+      "full": "audio/niti_013_full.mp3"
+    },
+    "gloss": {
+      "sa": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "niti_014",
+    "title": "नीतिशतकम् 14",
+    "meter": "—",
+    "full": "",
+    "text": {
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": ""
+    },
+    "practice": {
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": ""
+    },
+    "needsSplitPractice": false,
+    "available": {
+      "p12": false,
+      "p34": false
+    },
+    "audio": {
+      "p1": "audio/niti_014_p1.mp3",
+      "p2": "audio/niti_014_p2.mp3",
+      "p3": "audio/niti_014_p3.mp3",
+      "p4": "audio/niti_014_p4.mp3",
+      "p12": null,
+      "p34": null,
+      "full": "audio/niti_014_full.mp3"
+    },
+    "gloss": {
+      "sa": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "niti_015",
+    "title": "नीतिशतकम् 15",
+    "meter": "—",
+    "full": "",
+    "text": {
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": ""
+    },
+    "practice": {
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": ""
+    },
+    "needsSplitPractice": false,
+    "available": {
+      "p12": false,
+      "p34": false
+    },
+    "audio": {
+      "p1": "audio/niti_015_p1.mp3",
+      "p2": "audio/niti_015_p2.mp3",
+      "p3": "audio/niti_015_p3.mp3",
+      "p4": "audio/niti_015_p4.mp3",
+      "p12": null,
+      "p34": null,
+      "full": "audio/niti_015_full.mp3"
+    },
+    "gloss": {
+      "sa": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "niti_016",
+    "title": "नीतिशतकम् 16",
+    "meter": "—",
+    "full": "",
+    "text": {
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": ""
+    },
+    "practice": {
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": ""
+    },
+    "needsSplitPractice": false,
+    "available": {
+      "p12": false,
+      "p34": false
+    },
+    "audio": {
+      "p1": "audio/niti_016_p1.mp3",
+      "p2": "audio/niti_016_p2.mp3",
+      "p3": "audio/niti_016_p3.mp3",
+      "p4": "audio/niti_016_p4.mp3",
+      "p12": null,
+      "p34": null,
+      "full": "audio/niti_016_full.mp3"
+    },
+    "gloss": {
+      "sa": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "niti_017",
+    "title": "नीतिशतकम् 17",
+    "meter": "—",
+    "full": "",
+    "text": {
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": ""
+    },
+    "practice": {
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": ""
+    },
+    "needsSplitPractice": false,
+    "available": {
+      "p12": false,
+      "p34": false
+    },
+    "audio": {
+      "p1": "audio/niti_017_p1.mp3",
+      "p2": "audio/niti_017_p2.mp3",
+      "p3": "audio/niti_017_p3.mp3",
+      "p4": "audio/niti_017_p4.mp3",
+      "p12": null,
+      "p34": null,
+      "full": "audio/niti_017_full.mp3"
+    },
+    "gloss": {
+      "sa": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "niti_018",
+    "title": "नीतिशतकम् 18",
+    "meter": "—",
+    "full": "",
+    "text": {
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": ""
+    },
+    "practice": {
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": ""
+    },
+    "needsSplitPractice": false,
+    "available": {
+      "p12": false,
+      "p34": false
+    },
+    "audio": {
+      "p1": "audio/niti_018_p1.mp3",
+      "p2": "audio/niti_018_p2.mp3",
+      "p3": "audio/niti_018_p3.mp3",
+      "p4": "audio/niti_018_p4.mp3",
+      "p12": null,
+      "p34": null,
+      "full": "audio/niti_018_full.mp3"
+    },
+    "gloss": {
+      "sa": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "niti_019",
+    "title": "नीतिशतकम् 19",
+    "meter": "—",
+    "full": "",
+    "text": {
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": ""
+    },
+    "practice": {
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": ""
+    },
+    "needsSplitPractice": false,
+    "available": {
+      "p12": false,
+      "p34": false
+    },
+    "audio": {
+      "p1": "audio/niti_019_p1.mp3",
+      "p2": "audio/niti_019_p2.mp3",
+      "p3": "audio/niti_019_p3.mp3",
+      "p4": "audio/niti_019_p4.mp3",
+      "p12": null,
+      "p34": null,
+      "full": "audio/niti_019_full.mp3"
+    },
+    "gloss": {
+      "sa": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "niti_020",
+    "title": "नीतिशतकम् 20",
+    "meter": "—",
+    "full": "",
+    "text": {
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": ""
+    },
+    "practice": {
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": ""
+    },
+    "needsSplitPractice": false,
+    "available": {
+      "p12": false,
+      "p34": false
+    },
+    "audio": {
+      "p1": "audio/niti_020_p1.mp3",
+      "p2": "audio/niti_020_p2.mp3",
+      "p3": "audio/niti_020_p3.mp3",
+      "p4": "audio/niti_020_p4.mp3",
+      "p12": null,
+      "p34": null,
+      "full": "audio/niti_020_full.mp3"
+    },
+    "gloss": {
+      "sa": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "niti_021",
+    "title": "नीतिशतकम् 21",
+    "meter": "—",
+    "full": "",
+    "text": {
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": ""
+    },
+    "practice": {
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": ""
+    },
+    "needsSplitPractice": false,
+    "available": {
+      "p12": false,
+      "p34": false
+    },
+    "audio": {
+      "p1": "audio/niti_021_p1.mp3",
+      "p2": "audio/niti_021_p2.mp3",
+      "p3": "audio/niti_021_p3.mp3",
+      "p4": "audio/niti_021_p4.mp3",
+      "p12": null,
+      "p34": null,
+      "full": "audio/niti_021_full.mp3"
+    },
+    "gloss": {
+      "sa": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "niti_022",
+    "title": "नीतिशतकम् 22",
+    "meter": "—",
+    "full": "",
+    "text": {
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": ""
+    },
+    "practice": {
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": ""
+    },
+    "needsSplitPractice": false,
+    "available": {
+      "p12": false,
+      "p34": false
+    },
+    "audio": {
+      "p1": "audio/niti_022_p1.mp3",
+      "p2": "audio/niti_022_p2.mp3",
+      "p3": "audio/niti_022_p3.mp3",
+      "p4": "audio/niti_022_p4.mp3",
+      "p12": null,
+      "p34": null,
+      "full": "audio/niti_022_full.mp3"
+    },
+    "gloss": {
+      "sa": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "niti_023",
+    "title": "नीतिशतकम् 23",
+    "meter": "—",
+    "full": "",
+    "text": {
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": ""
+    },
+    "practice": {
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": ""
+    },
+    "needsSplitPractice": false,
+    "available": {
+      "p12": false,
+      "p34": false
+    },
+    "audio": {
+      "p1": "audio/niti_023_p1.mp3",
+      "p2": "audio/niti_023_p2.mp3",
+      "p3": "audio/niti_023_p3.mp3",
+      "p4": "audio/niti_023_p4.mp3",
+      "p12": null,
+      "p34": null,
+      "full": "audio/niti_023_full.mp3"
+    },
+    "gloss": {
+      "sa": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "niti_024",
+    "title": "नीतिशतकम् 24",
+    "meter": "—",
+    "full": "",
+    "text": {
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": ""
+    },
+    "practice": {
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": ""
+    },
+    "needsSplitPractice": false,
+    "available": {
+      "p12": false,
+      "p34": false
+    },
+    "audio": {
+      "p1": "audio/niti_024_p1.mp3",
+      "p2": "audio/niti_024_p2.mp3",
+      "p3": "audio/niti_024_p3.mp3",
+      "p4": "audio/niti_024_p4.mp3",
+      "p12": null,
+      "p34": null,
+      "full": "audio/niti_024_full.mp3"
+    },
+    "gloss": {
+      "sa": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "niti_025",
+    "title": "नीतिशतकम् 25",
+    "meter": "—",
+    "full": "",
+    "text": {
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": ""
+    },
+    "practice": {
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": ""
+    },
+    "needsSplitPractice": false,
+    "available": {
+      "p12": false,
+      "p34": false
+    },
+    "audio": {
+      "p1": "audio/niti_025_p1.mp3",
+      "p2": "audio/niti_025_p2.mp3",
+      "p3": "audio/niti_025_p3.mp3",
+      "p4": "audio/niti_025_p4.mp3",
+      "p12": null,
+      "p34": null,
+      "full": "audio/niti_025_full.mp3"
+    },
+    "gloss": {
+      "sa": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "niti_026",
+    "title": "नीतिशतकम् 26",
+    "meter": "—",
+    "full": "",
+    "text": {
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": ""
+    },
+    "practice": {
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": ""
+    },
+    "needsSplitPractice": false,
+    "available": {
+      "p12": false,
+      "p34": false
+    },
+    "audio": {
+      "p1": "audio/niti_026_p1.mp3",
+      "p2": "audio/niti_026_p2.mp3",
+      "p3": "audio/niti_026_p3.mp3",
+      "p4": "audio/niti_026_p4.mp3",
+      "p12": null,
+      "p34": null,
+      "full": "audio/niti_026_full.mp3"
+    },
+    "gloss": {
+      "sa": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "niti_027",
+    "title": "नीतिशतकम् 27",
+    "meter": "—",
+    "full": "",
+    "text": {
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": ""
+    },
+    "practice": {
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": ""
+    },
+    "needsSplitPractice": false,
+    "available": {
+      "p12": false,
+      "p34": false
+    },
+    "audio": {
+      "p1": "audio/niti_027_p1.mp3",
+      "p2": "audio/niti_027_p2.mp3",
+      "p3": "audio/niti_027_p3.mp3",
+      "p4": "audio/niti_027_p4.mp3",
+      "p12": null,
+      "p34": null,
+      "full": "audio/niti_027_full.mp3"
+    },
+    "gloss": {
+      "sa": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "niti_028",
+    "title": "नीतिशतकम् 28",
+    "meter": "—",
+    "full": "",
+    "text": {
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": ""
+    },
+    "practice": {
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": ""
+    },
+    "needsSplitPractice": false,
+    "available": {
+      "p12": false,
+      "p34": false
+    },
+    "audio": {
+      "p1": "audio/niti_028_p1.mp3",
+      "p2": "audio/niti_028_p2.mp3",
+      "p3": "audio/niti_028_p3.mp3",
+      "p4": "audio/niti_028_p4.mp3",
+      "p12": null,
+      "p34": null,
+      "full": "audio/niti_028_full.mp3"
+    },
+    "gloss": {
+      "sa": "",
+      "en": ""
+    }
+  },
+  {
+    "id": "niti_029",
+    "title": "नीतिशतकम् 29",
+    "meter": "—",
+    "full": "",
+    "text": {
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": ""
+    },
+    "practice": {
+      "p1": "",
+      "p2": "",
+      "p3": "",
+      "p4": ""
+    },
+    "needsSplitPractice": false,
+    "available": {
+      "p12": false,
+      "p34": false
+    },
+    "audio": {
+      "p1": "audio/niti_029_p1.mp3",
+      "p2": "audio/niti_029_p2.mp3",
+      "p3": "audio/niti_029_p3.mp3",
+      "p4": "audio/niti_029_p4.mp3",
+      "p12": null,
+      "p34": null,
+      "full": "audio/niti_029_full.mp3"
+    },
+    "gloss": {
+      "sa": "",
+      "en": ""
     }
   }
 ]
