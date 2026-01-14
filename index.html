@@ -10,8 +10,8 @@
 <body>
   <header class="topbar">
     <div class="brand">
-      <div class="brandTitle">नीतिशतकम्</div>
-      <div class="brandSub">पद → द्विपद → श्लोक अभ्यासः</div>
+      <div class="brandTitle" id="brandTitle">नीतिशतकम्</div>
+      <div class="brandSub" id="brandSub">पद → द्विपद → श्लोक अभ्यासः</div>
     </div>
 
     <div class="topControls">
@@ -25,7 +25,26 @@
           <option value="sepia">Sepia</option>
         </select>
       </div>
-    </div>
+    <div class="controlGroup">
+  <label for="scriptSelect">Script</label>
+  <select id="scriptSelect" class="select">
+    <option value="Devanagari">Devanāgarī</option>
+    <option value="IAST">IAST</option>
+    <option value="ISO">ISO 15919</option>
+    <option value="ITRANS">ITRANS</option>
+    <option value="HK">Harvard–Kyoto</option>
+    <option value="Kannada">Kannada</option>
+    <option value="Telugu">Telugu</option>
+    <option value="Tamil">Tamil</option>
+    <option value="Malayalam">Malayalam</option>
+    <option value="Grantha">Grantha</option>
+    <option value="Sharada">Śāradā</option>
+    <option value="Bengali">Bengali</option>
+    <option value="Gujarati">Gujarati</option>
+  </select>
+</div>
+
+	</div>
   </header>
 
   <main class="layout">
@@ -121,7 +140,6 @@
         <div class="line pada" id="pada4"></div>
       </div>
 
-      <!-- Single-pāda buttons (only for normal verses) -->
       <div class="singles" id="singleButtons">
         <button id="playP1" class="btn chip">P1</button>
         <button id="playP2" class="btn chip">P2</button>
@@ -129,7 +147,6 @@
         <button id="playP4" class="btn chip">P4</button>
       </div>
 
-      <!-- Pair / full buttons -->
       <div class="pairs">
         <button id="playP12" class="btn chip">P1+P2</button>
         <button id="playP34" class="btn chip">P3+P4</button>
@@ -140,15 +157,46 @@
         <div class="gloss sa" id="arthaSa"></div>
         <div class="gloss en" id="meaningEn"></div>
       </div>
+<div class="compareBox" id="compareBox">
+  <div class="compareHeader">Record & Compare</div>
+
+  <div class="compareRow">
+    <label for="compareTake">Segment</label>
+    <select id="compareTake" class="select">
+      <option value="p1">P1</option>
+      <option value="p2">P2</option>
+      <option value="p3">P3</option>
+      <option value="p4">P4</option>
+      <option value="p12">P1+P2</option>
+      <option value="p34">P3+P4</option>
+      <option value="full" selected>Full</option>
+    </select>
+  </div>
+
+  <div class="compareButtons">
+    <button id="recMine" class="btn chip">● Record</button>
+    <button id="stopMine" class="btn chip" disabled>■ Stop</button>
+    <button id="playMine" class="btn chip" disabled>▶ My Take</button>
+  </div>
+
+  <div class="compareButtons">
+    <button id="compareAB" class="btn chip" disabled>A → B</button>
+    <button id="clearMine" class="btn chip" disabled>Clear</button>
+  </div>
+
+  <div class="compareStatus" id="compareStatus">Ready.</div>
+</div>
 
       <div class="status" id="status">Ready.</div>
 
       <audio id="player" preload="auto"></audio>
     </section>
   </main>
+
   <script src="app.js"></script>
-<footer class="footer">
-  Created by Samskritabharati, USA
-</footer>
+
+  <footer class="footer">
+    Created by Samskritabharati, USA
+  </footer>
 </body>
 </html>
