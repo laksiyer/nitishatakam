@@ -614,109 +614,109 @@
   {
     "id": "niti_018",
     "title": "नीतिशतकम् 18",
-    "meter": "—",
-    "full": "",
+    "meter": "वसन्ततिलका--> उक्ता वसन्ततिलका तभजाः जगौ गः",
+    "full": "अम्भोजिनी-वन-विहार-विलासमेव हंसस्य हन्ति नितरां कुपितो विधाता । न त्वस्य दुग्ध-जल-भेद-विधौ प्रसिद्धां वैदग्धी-कीर्तिमपहर्तुमसौ समर्थः ॥",
     "text": {
-      "p1": "",
-      "p2": "",
-      "p3": "",
-      "p4": ""
+      "p1": "अम्भोजिनी-वन-विहार-विलासमेव",
+      "p2": "हंसस्य हन्ति नितरां कुपितो विधाता ।",
+      "p3": "न त्वस्य दुग्ध-जल-भेद-विधौ प्रसिद्धाम्",
+      "p4": "वैदग्धी-कीर्तिमपहर्तुमसौ समर्थः ॥"
     },
     "practice": {
-      "p1": "",
-      "p2": "",
-      "p3": "",
-      "p4": ""
+      "p1": "अम्भोजिनी-वन-विहार-विलासमेव",
+      "p2": "हंसस्य हन्ति नितरां कुपितो विधाता ।",
+      "p3": "न त्वस्य दुग्ध-जल-भेद-विधौ प्रसिद्धाम्",
+      "p4": "वैदग्धी-कीर्तिमपहर्तुमसौ समर्थः ॥"
     },
     "needsSplitPractice": false,
     "available": {
-      "p12": false,
-      "p34": false
+      "p12": true,
+      "p34": true
     },
     "audio": {
       "p1": "audio/niti_018_p1.mp3",
       "p2": "audio/niti_018_p2.mp3",
       "p3": "audio/niti_018_p3.mp3",
       "p4": "audio/niti_018_p4.mp3",
-      "p12": null,
-      "p34": null,
+      "p12": "audio/niti_018_p12.mp3",
+      "p34": "audio/niti_018_p34.mp3",
       "full": "audio/niti_018_full.mp3"
     },
     "gloss": {
-      "sa": "",
-      "en": ""
+      "sa": "संस्कृतार्थम्  अत्र स्थापयामि",
+      "en": "An angered Creator can, at most, destroy a swan's pleasure of sporting in a lotus forest. But He is not capable of taking away its famous skill in separating milk from water."
     }
   },
   {
     "id": "niti_019",
     "title": "नीतिशतकम् 19",
-    "meter": "—",
-    "full": "",
+    "meter": "शार्दूलविक्रीडितम् -->  सूर्याश्वैर्यदि मः सजौ सततगाः शार्दूलविक्रीडितम्",
+    "full": "केयूराणि न भूषयन्ति पुरुषं हारा न चन्द्रोज्ज्वला न स्नानं न विलेपनं न कुसुमं नालङ्कृता मूर्धजाः । वाण्येका समलङ्करोति पुरुषं या संस्कृता धार्यते क्षीयन्ते खलु भूषणानि सततं वाग्-भूषणं भूषणम् ॥",
     "text": {
-      "p1": "",
-      "p2": "",
-      "p3": "",
-      "p4": ""
+      "p1": "केयूराणि न भूषयन्ति पुरुषं हारा न चन्द्रोज्ज्वला",
+      "p2": "न स्नानं न विलेपनं न कुसुमं नालङ्कृता मूर्धजाः ।",
+      "p3": "वाण्येका समलङ्करोति पुरुषं या संस्कृता धार्यते",
+      "p4": "क्षीयन्ते खलु भूषणानि सततं वाग्-भूषणं भूषणम् ॥"
     },
     "practice": {
-      "p1": "",
-      "p2": "",
-      "p3": "",
-      "p4": ""
+      "p1": "केयूराणि न भूषयन्ति पुरुषं हारा न चन्द्रोज्ज्वला",
+      "p2": "न स्नानं न विलेपनं न कुसुमं नालङ्कृता मूर्धजाः ।",
+      "p3": "वाण्येका समलङ्करोति पुरुषं या संस्कृता धार्यते",
+      "p4": "क्षीयन्ते खलु भूषणानि सततं वाग्-भूषणं भूषणम् ॥"
     },
     "needsSplitPractice": false,
     "available": {
-      "p12": false,
-      "p34": false
+      "p12": true,
+      "p34": true
     },
     "audio": {
       "p1": "audio/niti_019_p1.mp3",
       "p2": "audio/niti_019_p2.mp3",
       "p3": "audio/niti_019_p3.mp3",
       "p4": "audio/niti_019_p4.mp3",
-      "p12": null,
-      "p34": null,
+      "p12": "audio/niti_019_p12.mp3",
+      "p34": "audio/niti_019_p34.mp3",
       "full": "audio/niti_019_full.mp3"
     },
     "gloss": {
-      "sa": "",
-      "en": ""
+      "sa": "संस्कृतार्थम्  अत्र स्थापयामि",
+      "en": "Bracelets do not adorn a man, nor do moon-bright necklaces, nor bathing, nor ointments, nor flowers, nor decorated hair. Only a refined speech that is cultivated truly adorns a person. All other ornaments perish over time; the ornament of speech is the only lasting ornament."
     }
   },
   {
     "id": "niti_020",
     "title": "नीतिशतकम् 20",
-    "meter": "—",
-    "full": "",
+    "meter": "शार्दूलविक्रीडितम् -->  सूर्याश्वैर्यदि मः सजौ सततगाः शार्दूलविक्रीडितम्",
+    "full": "विद्या नाम नरस्य रूपमधिकं प्रच्छन्न-गुप्तं धनं विद्या भोगकरी यशः-सुखकरी विद्या गुरूणां गुरुः । विद्या बन्धुजनो विदेश-गमने विद्या परम् दैवतम् विद्या राजसु पूज्यते न हि धनं विद्या-विहीनः पशुः ॥",
     "text": {
-      "p1": "",
-      "p2": "",
-      "p3": "",
-      "p4": ""
+      "p1": "विद्या नाम नरस्य रूपमधिकं प्रच्छन्न-गुप्तं धनम्",
+      "p2": "विद्या भोगकरी यशः-सुखकरी विद्या गुरूणां गुरुः ।",
+      "p3": "विद्या बन्धुजनो विदेश-गमने विद्या परम् दैवतम्",
+      "p4": "विद्या राजसु पूज्यते न हि धनं विद्या-विहीनः पशुः ॥"
     },
     "practice": {
-      "p1": "",
-      "p2": "",
-      "p3": "",
-      "p4": ""
+      "p1": "विद्या नाम नरस्य रूपमधिकं प्रच्छन्न-गुप्तं धनम्",
+      "p2": "विद्या भोगकरी यशः-सुखकरी विद्या गुरूणां गुरुः ।",
+      "p3": "विद्या बन्धुजनो विदेश-गमने विद्या परम् दैवतम्",
+      "p4": "विद्या राजसु पूज्यते न हि धनं विद्या-विहीनः पशुः ॥"
     },
     "needsSplitPractice": false,
     "available": {
-      "p12": false,
-      "p34": false
+      "p12": true,
+      "p34": true
     },
     "audio": {
       "p1": "audio/niti_020_p1.mp3",
       "p2": "audio/niti_020_p2.mp3",
       "p3": "audio/niti_020_p3.mp3",
       "p4": "audio/niti_020_p4.mp3",
-      "p12": null,
-      "p34": null,
+      "p12": "audio/niti_020_p12.mp3",
+      "p34": "audio/niti_020_p34.mp3",
       "full": "audio/niti_020_full.mp3"
     },
     "gloss": {
-      "sa": "",
-      "en": ""
+      "sa": "संस्कृतार्थम्  अत्र स्थापयामि",
+      "en": "Knowledge is a person's true beauty, a well-concealed treasure. It brings enjoyment, fame, and happiness. Knowledge is the teacher of teachers. It is a kinsman in foreign lands and the supreme deity. Knowledge, not wealth, is honored by kings. A person without knowledge is but an animal."
     }
   },
   {
