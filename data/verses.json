@@ -578,37 +578,37 @@
   {
     "id": "niti_017",
     "title": "नीतिशतकम् 17",
-    "meter": "—",
-    "full": "",
+    "meter": "मालिनी --> ननमयय युतेयं मालिनी भोगिलोकैः",
+    "full": "अधिगत-परमार्थान्पण्डितान्मावमंस्थास्तृणमिव लघु लक्ष्मीर्नैव तान्संरुणद्धि । अभिनव-मद-लेखा-श्याम-गण्ड-स्थलानां न भवति बिसतन्तुर्वारणं वारणानाम् ॥",
     "text": {
-      "p1": "",
-      "p2": "",
-      "p3": "",
-      "p4": ""
+      "p1": "अधिगत-परमार्थान्पण्डितान्मावमंस्थाः",
+      "p2": "तृणमिव लघु लक्ष्मीर्नैव तान्संरुणद्धि ।",
+      "p3": "अभिनव-मद-लेखा-श्याम-गण्ड-स्थलानाम्",
+      "p4": "न भवति बिसतन्तुर्वारणं वारणानाम् ॥"
     },
     "practice": {
-      "p1": "",
-      "p2": "",
-      "p3": "",
-      "p4": ""
+      "p1": "अधिगत-परमार्थान्पण्डितान्मावमंस्थाः",
+      "p2": "तृणमिव लघु लक्ष्मीर्नैव तान्संरुणद्धि ।",
+      "p3": "अभिनव-मद-लेखा-श्याम-गण्ड-स्थलानाम्",
+      "p4": "न भवति बिसतन्तुर्वारणं वारणानाम् ॥"
     },
     "needsSplitPractice": false,
     "available": {
-      "p12": false,
-      "p34": false
+      "p12": true,
+      "p34": true
     },
     "audio": {
       "p1": "audio/niti_017_p1.mp3",
       "p2": "audio/niti_017_p2.mp3",
       "p3": "audio/niti_017_p3.mp3",
       "p4": "audio/niti_017_p4.mp3",
-      "p12": null,
-      "p34": null,
+      "p12": "audio/niti_017_p12.mp3",
+      "p34": "audio/niti_017_p34.mp3",
       "full": "audio/niti_017_full.mp3"
     },
     "gloss": {
-      "sa": "",
-      "en": ""
+      "sa": "संस्कृतार्थम्  अत्र स्थापयामि",
+      "en": "Do not disrespect the learned who have realized the ultimate truth. Trivial wealth cannot hold them back, just as a blade of grass cannot. A delicate lotus filament cannot restrain mighty elephants whose temples are dark with streaks of fresh rut."
     }
   },
   {
