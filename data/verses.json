@@ -723,360 +723,360 @@
     "id": "niti_021",
     "title": "नीतिशतकम् 21",
     "meter": "—",
-    "full": "",
+    "full": "क्षान्तिश्चेत् कवचेन किं किमरिभिः क्रोधोऽस्ति चेद्देहिनां ज्ञातिश्चेदनलेन किं यदि सुहृद् दिव्यौषधैः किं फलम् । किं सर्पैर्यदि दुर्जनाः किमु धनैर्विद्या न वन्द्या यदि व्रीडा चेत्किमु भूषणैः सुकविता यद्यस्ति राज्येन किम् ॥ २१॥",
     "text": {
-      "p1": "",
-      "p2": "",
-      "p3": "",
-      "p4": ""
+      "p1": "क्षान्तिश्चेत् कवचेन किं किमरिभिः क्रोधोऽस्ति चेद्देहिनाम्",
+      "p2": "ज्ञातिश्चेदनलेन किं यदि सुहृद् दिव्यौषधैः किं फलम् ।",
+      "p3": "किं सर्पैर्यदि दुर्जनाः किमु धनैर्विद्या न वन्द्या यदि",
+      "p4": "व्रीडा चेत्किमु भूषणैः सुकविता यद्यस्ति राज्येन किम् ॥"
     },
     "practice": {
-      "p1": "",
-      "p2": "",
-      "p3": "",
-      "p4": ""
+      "p1": "क्षान्तिश्चेत् कवचेन किं किमरिभिः क्रोधोऽस्ति चेद्देहिनाम्",
+      "p2": "ज्ञातिश्चेदनलेन किं यदि सुहृद् दिव्यौषधैः किं फलम् ।",
+      "p3": "किं सर्पैर्यदि दुर्जनाः किमु धनैर्विद्या न वन्द्या यदि",
+      "p4": "व्रीडा चेत्किमु भूषणैः सुकविता यद्यस्ति राज्येन किम् ॥"
     },
     "needsSplitPractice": false,
     "available": {
-      "p12": false,
-      "p34": false
+      "p12": true,
+      "p34": true
     },
     "audio": {
       "p1": "audio/niti_021_p1.mp3",
       "p2": "audio/niti_021_p2.mp3",
       "p3": "audio/niti_021_p3.mp3",
       "p4": "audio/niti_021_p4.mp3",
-      "p12": null,
-      "p34": null,
+      "p12": "audio/niti_021_p12.mp3",
+      "p34": "audio/niti_021_p34.mp3",
       "full": "audio/niti_021_full.mp3"
     },
     "gloss": {
-      "sa": "",
-      "en": ""
+      "sa": "संस्कृतार्थम्  अत्र स्थापयामि",
+      "en": "If one has forbearance, what is the need for armor? If one has anger, what need is there for enemies? If one has kinsmen (who are hostile), what need for fire? If one has a true friend, what is the use of divine medicine? If there are wicked people, what need for snakes? If one has flawless knowledge, what use is wealth? If one has modesty, what is the need for ornaments? If one possesses the art of good poetry, what is the use of a kingdom?"
     }
   },
   {
     "id": "niti_022",
     "title": "नीतिशतकम् 22",
     "meter": "—",
-    "full": "",
+    "full": "दाक्षिण्यं स्वजने दया परजने शाठ्यं सदा दुर्जने प्रीतिः साधुजने नयो नृपजने विद्वज्जने चार्जवम् । शौर्यं शत्रुजने क्षमा गुरुजने कान्ताजने धृष्टता ये चैवं पुरुषाः कलासु कुशलास्तेष्वेव लोकस्थितिः ॥ २२॥",
     "text": {
-      "p1": "",
-      "p2": "",
-      "p3": "",
-      "p4": ""
+      "p1": "दाक्षिण्यं स्वजने दया परजने शाठ्यं सदा दुर्जने",
+      "p2": "प्रीतिः साधुजने नयो नृपजने विद्वज्जने चार्जवम् ।",
+      "p3": "शौर्यं शत्रुजने क्षमा गुरुजने कान्ताजने धृष्टता",
+      "p4": "ये चैवं पुरुषाः कलासु कुशलास्तेष्वेव लोकस्थितिः ॥"
     },
     "practice": {
-      "p1": "",
-      "p2": "",
-      "p3": "",
-      "p4": ""
+      "p1": "दाक्षिण्यं स्वजने दया परजने शाठ्यं सदा दुर्जने",
+      "p2": "प्रीतिः साधुजने नयो नृपजने विद्वज्जने चार्जवम् ।",
+      "p3": "शौर्यं शत्रुजने क्षमा गुरुजने कान्ताजने धृष्टता",
+      "p4": "ये चैवं पुरुषाः कलासु कुशलास्तेष्वेव लोकस्थितिः ॥"
     },
     "needsSplitPractice": false,
     "available": {
-      "p12": false,
-      "p34": false
+      "p12": true,
+      "p34": true
     },
     "audio": {
       "p1": "audio/niti_022_p1.mp3",
       "p2": "audio/niti_022_p2.mp3",
       "p3": "audio/niti_022_p3.mp3",
       "p4": "audio/niti_022_p4.mp3",
-      "p12": null,
-      "p34": null,
+      "p12": "audio/niti_022_p12.mp3",
+      "p34": "audio/niti_022_p34.mp3",
       "full": "audio/niti_022_full.mp3"
     },
     "gloss": {
-      "sa": "",
-      "en": ""
+      "sa": "संस्कृतार्थम्  अत्र स्थापयामि",
+      "en": "Courtesy towards one's own people, compassion for dependents, cunning towards the wicked, affection for the good, diplomacy with rulers, straightforwardness with the learned, valor against enemies, forgiveness for elders, and boldness with one's beloved—those men who are skilled in these arts are the ones on whom the stability of the world rests."
     }
   },
   {
     "id": "niti_023",
     "title": "नीतिशतकम् 23",
     "meter": "—",
-    "full": "",
+    "full": "जाड्यं धियो हरति सिञ्चति वाचि सत्यं मानोन्नतिं दिशति पापमपाकरोति । चेतः प्रसादयति दिक्षु तनोति कीर्तिं सत्सङ्गतिः कथय किं न करोति पुंसाम् ॥ २३॥",
     "text": {
-      "p1": "",
-      "p2": "",
-      "p3": "",
-      "p4": ""
+      "p1": "जाड्यं धियो हरति सिञ्चति वाचि सत्यम्",
+      "p2": "मानोन्नतिं दिशति पापमपाकरोति ।",
+      "p3": "चेतः प्रसादयति दिक्षु तनोति कीर्तिम्",
+      "p4": "सत्सङ्गतिः कथय किं न करोति पुंसाम् ॥"
     },
     "practice": {
-      "p1": "",
-      "p2": "",
-      "p3": "",
-      "p4": ""
+      "p1": "जाड्यं धियो हरति सिञ्चति वाचि सत्यम्",
+      "p2": "मानोन्नतिं दिशति पापमपाकरोति ।",
+      "p3": "चेतः प्रसादयति दिक्षु तनोति कीर्तिम्",
+      "p4": "सत्सङ्गतिः कथय किं न करोति पुंसाम् ॥"
     },
     "needsSplitPractice": false,
     "available": {
-      "p12": false,
-      "p34": false
+      "p12": true,
+      "p34": true
     },
     "audio": {
       "p1": "audio/niti_023_p1.mp3",
       "p2": "audio/niti_023_p2.mp3",
       "p3": "audio/niti_023_p3.mp3",
       "p4": "audio/niti_023_p4.mp3",
-      "p12": null,
-      "p34": null,
+      "p12": "audio/niti_023_p12.mp3",
+      "p34": "audio/niti_023_p34.mp3",
       "full": "audio/niti_023_full.mp3"
     },
     "gloss": {
-      "sa": "",
-      "en": ""
+      "sa": "संस्कृतार्थम्  अत्र स्थापयामि",
+      "en": "The company of the good removes dullness of the intellect, instills truth in speech, bestows honor, drives away sin, pleases the mind, and spreads fame in all directions. Tell me, what does it not do for a person?"
     }
   },
   {
     "id": "niti_024",
     "title": "नीतिशतकम् 24",
     "meter": "—",
-    "full": "",
+    "full": "जयन्ति ते सुकृतिनः रससिद्धाः कवीश्वराः । नास्ति येषां यशःकाये जरामरणजं भयम् ॥ २४॥",
     "text": {
-      "p1": "",
-      "p2": "",
-      "p3": "",
-      "p4": ""
+      "p1": "जयन्ति ते सुकृतिनः",
+      "p2": "रससिद्धाः कवीश्वराः ।",
+      "p3": "नास्ति येषां यशःकाये",
+      "p4": "जरामरणजं भयम् ॥"
     },
     "practice": {
-      "p1": "",
-      "p2": "",
-      "p3": "",
-      "p4": ""
+      "p1": "जयन्ति ते सुकृतिनः",
+      "p2": "रससिद्धाः कवीश्वराः ।",
+      "p3": "नास्ति येषां यशःकाये",
+      "p4": "जरामरणजं भयम् ॥"
     },
     "needsSplitPractice": false,
     "available": {
-      "p12": false,
-      "p34": false
+      "p12": true,
+      "p34": true
     },
     "audio": {
       "p1": "audio/niti_024_p1.mp3",
       "p2": "audio/niti_024_p2.mp3",
       "p3": "audio/niti_024_p3.mp3",
       "p4": "audio/niti_024_p4.mp3",
-      "p12": null,
-      "p34": null,
+      "p12": "audio/niti_024_p12.mp3",
+      "p34": "audio/niti_024_p34.mp3",
       "full": "audio/niti_024_full.mp3"
     },
     "gloss": {
-      "sa": "",
-      "en": ""
+      "sa": "संस्कृतार्थम्  अत्र स्थापयामि",
+      "en": "Victorious are those meritorious and great poets, masters of aesthetic sentiment, for whom there is no fear of old age and death in their body of fame."
     }
   },
   {
     "id": "niti_025",
     "title": "नीतिशतकम् 25",
     "meter": "—",
-    "full": "",
+    "full": "सूनुः सच्चरितः सती प्रियतमा स्वामी प्रसादोन्मुखः स्निग्धं मित्रमवञ्चकः परिजनो निष्क्लेशलेशं मनः । आकारो रुचिरः स्थिरश्च विभवो विद्यावदातं मुखं तुष्टे विष्टपकष्टहारिणि हरौ सम्प्राप्यते देहिना ॥ २५॥",
     "text": {
-      "p1": "",
-      "p2": "",
-      "p3": "",
-      "p4": ""
+      "p1": "सूनुः सच्चरितः सती प्रियतमा स्वामी प्रसादोन्मुखः",
+      "p2": "स्निग्धं मित्रमवञ्चकः परिजनो निष्क्लेशलेशं मनः ।",
+      "p3": "आकारो रुचिरः स्थिरश्च विभवो विद्यावदातं मुखम्",
+      "p4": "तुष्टे विष्टपकष्टहारिणि हरौ सम्प्राप्यते देहिना ॥"
     },
     "practice": {
-      "p1": "",
-      "p2": "",
-      "p3": "",
-      "p4": ""
+      "p1": "सूनुः सच्चरितः सती प्रियतमा स्वामी प्रसादोन्मुखः",
+      "p2": "स्निग्धं मित्रमवञ्चकः परिजनो निष्क्लेशलेशं मनः ।",
+      "p3": "आकारो रुचिरः स्थिरश्च विभवो विद्यावदातं मुखम्",
+      "p4": "तुष्टे विष्टपकष्टहारिणि हरौ सम्प्राप्यते देहिना ॥"
     },
     "needsSplitPractice": false,
     "available": {
-      "p12": false,
-      "p34": false
+      "p12": true,
+      "p34": true
     },
     "audio": {
       "p1": "audio/niti_025_p1.mp3",
       "p2": "audio/niti_025_p2.mp3",
       "p3": "audio/niti_025_p3.mp3",
       "p4": "audio/niti_025_p4.mp3",
-      "p12": null,
-      "p34": null,
+      "p12": "audio/niti_025_p12.mp3",
+      "p34": "audio/niti_025_p34.mp3",
       "full": "audio/niti_025_full.mp3"
     },
     "gloss": {
-      "sa": "",
-      "en": ""
+      "sa": "संस्कृतार्थम्  अत्र स्थापयामि",
+      "en": "When Hari (Vishnu), the remover of the world's afflictions, is pleased, a person obtains all these: a well-behaved son, a virtuous and beloved wife, a gracious master, an affectionate friend, a non-deceitful servant, a mind free from any trace of suffering, a charming appearance, stable wealth, and a face radiant with knowledge."
     }
   },
   {
     "id": "niti_026",
     "title": "नीतिशतकम् 26",
     "meter": "—",
-    "full": "",
+    "full": "प्राणाघातान्निवृत्तिः परधनहरणे संयमः सत्यवाक्यं काले शक्त्या प्रदानं युवतिजनकथामूकभावः परेषाम् । तृष्णास्रोतोविभङ्गो गुरुषु च विनयः सर्वभूतानुकम्पा सामान्यः सर्वशास्त्रेष्वनुपहतविधिः श्रेयसामेष पन्थाः ॥ २६॥",
     "text": {
-      "p1": "",
-      "p2": "",
-      "p3": "",
-      "p4": ""
+      "p1": "प्राणाघातान्निवृत्तिः परधनहरणे संयमः सत्यवाक्यम्",
+      "p2": "काले शक्त्या प्रदानं युवतिजनकथामूकभावः परेषाम् ।",
+      "p3": "तृष्णास्रोतोविभङ्गो गुरुषु च विनयः सर्वभूतानुकम्पा",
+      "p4": "सामान्यः सर्वशास्त्रेष्वनुपहतविधिः श्रेयसामेष पन्थाः ॥"
     },
     "practice": {
-      "p1": "",
-      "p2": "",
-      "p3": "",
-      "p4": ""
+      "p1": "प्राणाघातान्निवृत्तिः परधनहरणे संयमः सत्यवाक्यम्",
+      "p2": "काले शक्त्या प्रदानं युवतिजनकथामूकभावः परेषाम् ।",
+      "p3": "तृष्णास्रोतोविभङ्गो गुरुषु च विनयः सर्वभूतानुकम्पा",
+      "p4": "सामान्यः सर्वशास्त्रेष्वनुपहतविधिः श्रेयसामेष पन्थाः ॥"
     },
     "needsSplitPractice": false,
     "available": {
-      "p12": false,
-      "p34": false
+      "p12": true,
+      "p34": true
     },
     "audio": {
       "p1": "audio/niti_026_p1.mp3",
       "p2": "audio/niti_026_p2.mp3",
       "p3": "audio/niti_026_p3.mp3",
       "p4": "audio/niti_026_p4.mp3",
-      "p12": null,
-      "p34": null,
+      "p12": "audio/niti_026_p12.mp3",
+      "p34": "audio/niti_026_p34.mp3",
       "full": "audio/niti_026_full.mp3"
     },
     "gloss": {
-      "sa": "",
-      "en": ""
+      "sa": "संस्कृतार्थम्  अत्र स्थापयामि",
+      "en": "abstaining from harming living beings, restraining from stealing others' wealth, speaking the truth, giving charity according to one's ability, remaining silent during talk about others' women, breaking the flow of desire, showing humility towards elders, and having compassion for all creatures. This is the universally prescribed path to ultimate good."
     }
   },
   {
     "id": "niti_027",
     "title": "नीतिशतकम् 27",
     "meter": "—",
-    "full": "",
+    "full": "प्रारभ्यते न खलु विघ्नभयेन नीचैः प्रारभ्य विघ्नविहता विरमन्ति मध्याः । विघ्नैः पुनः पुनरपि प्रतिहन्यमानाः प्रारब्धमुत्तमगुणा न परित्यजन्ति ॥ २७॥",
     "text": {
-      "p1": "",
-      "p2": "",
-      "p3": "",
-      "p4": ""
+      "p1": "प्रारभ्यते न खलु विघ्नभयेन नीचैः",
+      "p2": "प्रारभ्य विघ्नविहता विरमन्ति मध्याः ।",
+      "p3": "विघ्नैः पुनः पुनरपि प्रतिहन्यमानाः",
+      "p4": "प्रारब्धमुत्तमगुणा न परित्यजन्ति ॥"
     },
     "practice": {
-      "p1": "",
-      "p2": "",
-      "p3": "",
-      "p4": ""
+      "p1": "प्रारभ्यते न खलु विघ्नभयेन नीचैः",
+      "p2": "प्रारभ्य विघ्नविहता विरमन्ति मध्याः ।",
+      "p3": "विघ्नैः पुनः पुनरपि प्रतिहन्यमानाः",
+      "p4": "प्रारब्धमुत्तमगुणा न परित्यजन्ति ॥"
     },
     "needsSplitPractice": false,
     "available": {
-      "p12": false,
-      "p34": false
+      "p12": true,
+      "p34": true
     },
     "audio": {
       "p1": "audio/niti_027_p1.mp3",
       "p2": "audio/niti_027_p2.mp3",
       "p3": "audio/niti_027_p3.mp3",
       "p4": "audio/niti_027_p4.mp3",
-      "p12": null,
-      "p34": null,
+      "p12": "audio/niti_027_p12.mp3",
+      "p34": "audio/niti_027_p34.mp3",
       "full": "audio/niti_027_full.mp3"
     },
     "gloss": {
-      "sa": "",
-      "en": ""
+      "sa": "संस्कृतार्थम्  अत्र स्थापयामि",
+      "en": "The lowest kind of people do not start a task for fear of obstacles. The mediocre start but stop when faced with difficulties. The best people, however, though repeatedly struck by obstacles, do not abandon what they have started."
     }
   },
   {
     "id": "niti_028",
     "title": "नीतिशतकम् 28",
     "meter": "—",
-    "full": "",
+    "full": "असन्तो नाभ्यर्थ्याः सुहृदपि न याच्यः कृशधनः प्रिया न्याय्या वृत्तिर्मलिनमसुभङ्गेऽप्यसुकरम् । विपद्युच्चैः स्थेयं पदमनुविधेयं च महतां सतां केनोद्दिष्टं विषममसिधाराव्रतमिदम् ॥ २८॥",
     "text": {
-      "p1": "",
-      "p2": "",
-      "p3": "",
-      "p4": ""
+      "p1": "असन्तो नाभ्यर्थ्याः सुहृदपि न याच्यः कृशधनः",
+      "p2": "प्रिया न्याय्या वृत्तिर्मलिनमसुभङ्गेऽप्यसुकरम् ।",
+      "p3": "विपद्युच्चैः स्थेयं पदमनुविधेयं च महताम्",
+      "p4": "सतां केनोद्दिष्टं विषममसिधाराव्रतमिदम् ॥"
     },
     "practice": {
-      "p1": "",
-      "p2": "",
-      "p3": "",
-      "p4": ""
+      "p1": "असन्तो नाभ्यर्थ्याः सुहृदपि न याच्यः कृशधनः",
+      "p2": "प्रिया न्याय्या वृत्तिर्मलिनमसुभङ्गेऽप्यसुकरम् ।",
+      "p3": "विपद्युच्चैः स्थेयं पदमनुविधेयं च महताम्",
+      "p4": "सतां केनोद्दिष्टं विषममसिधाराव्रतमिदम् ॥"
     },
     "needsSplitPractice": false,
     "available": {
-      "p12": false,
-      "p34": false
+      "p12": true,
+      "p34": true
     },
     "audio": {
       "p1": "audio/niti_028_p1.mp3",
       "p2": "audio/niti_028_p2.mp3",
       "p3": "audio/niti_028_p3.mp3",
       "p4": "audio/niti_028_p4.mp3",
-      "p12": null,
-      "p34": null,
+      "p12": "audio/niti_028_p12.mp3",
+      "p34": "audio/niti_028_p34.mp3",
       "full": "audio/niti_028_full.mp3"
     },
     "gloss": {
-      "sa": "",
-      "en": ""
+      "sa": "संस्कृतार्थम्  अत्र स्थापयामि",
+      "en": "One should not request from the wicked, nor beg from a poor friend. A just livelihood should be cherished. A dishonorable act should not be done even at the risk of life. One must remain steadfast in adversity and follow the path of the great and good. Who taught the virtuous this difficult vow, like walking on a sword's edge?"
     }
   },
   {
     "id": "niti_029",
     "title": "नीतिशतकम् 29",
     "meter": "—",
-    "full": "",
+    "full": "क्षुत्क्षामोऽपि जराकृशोऽपि शिथिलप्रायोऽपि कष्टां दशाम् आपन्नोऽपि विपन्नदीधितिरपि प्राणेषु गच्छत्स्वपि । मत्तेभेन्द्रविभिन्नकुम्भकवलग्रासैकबद्धस्पृहः किं जीर्णं तृणमत्ति मानमहतामग्रेसरः केसरिः ॥ २९॥",
     "text": {
-      "p1": "",
-      "p2": "",
-      "p3": "",
-      "p4": ""
+      "p1": "क्षुत्क्षामोऽपि जराकृशोऽपि शिथिलप्रायोऽपि कष्टां दशाम्",
+      "p2": "आपन्नोऽपि विपन्नदीधितिरपि प्राणेषु गच्छत्स्वपि ।",
+      "p3": "मत्तेभेन्द्रविभिन्नकुम्भकवलग्रासैकबद्धस्पृहः",
+      "p4": "किं जीर्णं तृणमत्ति मानमहतामग्रेसरः केसरिः ॥"
     },
     "practice": {
-      "p1": "",
-      "p2": "",
-      "p3": "",
-      "p4": ""
+      "p1": "क्षुत्क्षामोऽपि जराकृशोऽपि शिथिलप्रायोऽपि कष्टां दशाम्",
+      "p2": "आपन्नोऽपि विपन्नदीधितिरपि प्राणेषु गच्छत्स्वपि ।",
+      "p3": "मत्तेभेन्द्रविभिन्नकुम्भकवलग्रासैकबद्धस्पृहः",
+      "p4": "किं जीर्णं तृणमत्ति मानमहतामग्रेसरः केसरिः ॥"
     },
     "needsSplitPractice": false,
     "available": {
-      "p12": false,
-      "p34": false
+      "p12": true,
+      "p34": true
     },
     "audio": {
       "p1": "audio/niti_029_p1.mp3",
       "p2": "audio/niti_029_p2.mp3",
       "p3": "audio/niti_029_p3.mp3",
       "p4": "audio/niti_029_p4.mp3",
-      "p12": null,
-      "p34": null,
+      "p12": "audio/niti_029_p12.mp3",
+      "p34": "audio/niti_029_p34.mp3",
       "full": "audio/niti_029_full.mp3"
     },
     "gloss": {
-      "sa": "",
-      "en": ""
+      "sa": "संस्कृतार्थम्  अत्र स्थापयामि",
+      "en": "Even when emaciated by hunger, weakened by old age, with failing breath, in a dire state, having lost his lustre, and on the verge of death, does the lion—the foremost among the self-respecting—eat dry grass? No, his desire is fixed solely on a morsel of flesh from the frontal lobe of a mighty, rutting elephant."
     }
   },
   {
     "id": "niti_030",
     "title": "नीतिशतकम् 30",
     "meter": "—",
-    "full": "",
+    "full": "स्वल्पस्नायुवसावशेषमलिनं निर्मांसमप्यस्थिकं श्वा लब्ध्वा परितोषमेति न तु तत्तस्य क्षुधाशान्तये । सिंहो जम्बुकमङ्कमागतमपि त्यक्त्वा निहन्ति द्विपं सर्वः कृच्छ्रगतोऽपि वाञ्छति जनः सत्वानुरुपं फलम् ॥ ३०॥",
     "text": {
-      "p1": "",
-      "p2": "",
-      "p3": "",
-      "p4": ""
+      "p1": "स्वल्पस्नायुवसावशेषमलिनं निर्मांसमप्यस्थिकम्",
+      "p2": "श्वा लब्ध्वा परितोषमेति न तु तत्तस्य क्षुधाशान्तये ।",
+      "p3": "सिंहो जम्बुकमङ्कमागतमपि त्यक्त्वा निहन्ति द्विपम्",
+      "p4": "सर्वः कृच्छ्रगतोऽपि वाञ्छति जनः सत्वानुरुपं फलम् ॥"
     },
     "practice": {
-      "p1": "",
-      "p2": "",
-      "p3": "",
-      "p4": ""
+      "p1": "स्वल्पस्नायुवसावशेषमलिनं निर्मांसमप्यस्थिकम्",
+      "p2": "श्वा लब्ध्वा परितोषमेति न तु तत्तस्य क्षुधाशान्तये ।",
+      "p3": "सिंहो जम्बुकमङ्कमागतमपि त्यक्त्वा निहन्ति द्विपम्",
+      "p4": "सर्वः कृच्छ्रगतोऽपि वाञ्छति जनः सत्वानुरुपं फलम् ॥"
     },
     "needsSplitPractice": false,
     "available": {
-      "p12": false,
-      "p34": false
+      "p12": true,
+      "p34": true
     },
     "audio": {
       "p1": "audio/niti_030_p1.mp3",
       "p2": "audio/niti_030_p2.mp3",
       "p3": "audio/niti_030_p3.mp3",
       "p4": "audio/niti_030_p4.mp3",
-      "p12": null,
-      "p34": null,
+      "p12": "audio/niti_030_p12.mp3",
+      "p34": "audio/niti_030_p34.mp3",
       "full": "audio/niti_030_full.mp3"
     },
     "gloss": {
-      "sa": "",
-      "en": ""
+      "sa": "संस्कृतार्थम्  अत्र स्थापयामि",
+      "en": "A dog is satisfied upon finding a fleshless, dirty cow bone with little sinew and fat, though it doesn't appease its hunger. A lion, however, ignores a jackal that comes near and instead kills an elephant. Everyone, even in distress, desires a reward that befits their own inner strength and character."
     }
   },
   {
